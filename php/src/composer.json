@@ -3,7 +3,7 @@
     "type": "silverstripe-recipe",
     "description": "The SilverStripe Framework Installer",
     "require": {
-        "php": "^7.3 || ^8.0",
+        "php": "^8.0",
         "silverstripe/recipe-plugin": "^1.2",
         "silverstripe/recipe-cms": "~4.10.0@stable",
         "silverstripe/login-forms": "~4.6.0@stable"
@@ -41,6 +41,10 @@
             "composer/installers": true,
             "silverstripe/vendor-plugin": true,
             "silverstripe/recipe-plugin": true
+        },
+        "platform": {
+            "php": "8.0.16",
+            "ext-intl": "0"
         }
     },
     "prefer-stable": true,

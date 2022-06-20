@@ -2,17 +2,15 @@ version: '3.8'
 
 services:
   db:
-    image: mysql:5.7
+    image: mariadb
     volumes:
       - db_data:/var/lib/mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: silverstripe
-      MYSQL_DATABASE: silverstripe
-      MYSQL_USER: silverstripe
-      MYSQL_PASSWORD: silverstripe
-    ports:
-      - "9906:3306"
+      MARIADB_ROOT_PASSWORD: silverstripe
+      MARIADB_DATABASE: silverstripe
+      MARIADB_USER: silverstripe
+      MARIADB_PASSWORD: silverstripe
 
   php-apache:
     container_name: php-apache
@@ -26,9 +24,14 @@ services:
     ports:
       - "8000:80"
     environment:
-      - SS_DATABASE_CLASS="MySQLDatabase"
-      - SS_DATABASE_SERVER="localhost"
-      - SS_DATABASE_USERNAME="<user>"
+      SS_DATABASE_CLASS: MySQLDatabase
+      SS_DATABASE_SERVER: db
+      SS_DATABASE_USERNAME: silverstripe
+      SS_DATABASE_PASSWORD: silverstripe
+      SS_DATABASE_NAME: silverstripe
+      SS_ENVIRONMENT_TYPE: dev
+      SS_DEFAULT_ADMIN_USERNAME: admin
+      SS_DEFAULT_ADMIN_PASSWORD: admin
 
   composer:
     image: composer/composer
