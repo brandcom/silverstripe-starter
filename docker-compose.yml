@@ -1,0 +1,40 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:5.7
+    volumes:
+      - db_data:/var/lib/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: silverstripe
+      MYSQL_DATABASE: silverstripe
+      MYSQL_USER: silverstripe
+      MYSQL_PASSWORD: silverstripe
+    ports:
+      - "9906:3306"
+
+  php-apache:
+    container_name: php-apache
+    build:
+      context: ./php
+      dockerfile: Dockerfile
+    depends_on:
+      - db
+    volumes:
+      - ./php/src:/var/www/html/
+    ports:
+      - "8000:80"
+    environment:
+      - SS_DATABASE_CLASS="MySQLDatabase"
+      - SS_DATABASE_SERVER="localhost"
+      - SS_DATABASE_USERNAME="<user>"
+
+  composer:
+    image: composer/composer
+    command: composer install --ignore-platform-reqs --no-interaction
+    volumes:
+      - ./php/src:/app
+
+volumes:
+  db_data: {}
