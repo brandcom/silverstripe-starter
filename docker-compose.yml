@@ -31,7 +31,7 @@ services:
       SS_DEFAULT_ADMIN_PASSWORD: admin
 
   composer:
-    image: composer/composer
+    image: composer
     command: composer install --ignore-platform-reqs --no-interaction
     volumes:
       - .:/app
