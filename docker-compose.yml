@@ -12,10 +12,8 @@ services:
       MARIADB_USER: silverstripe
       MARIADB_PASSWORD: silverstripe
 
-  php-apache:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  web:
+    image: silverstripecloud/base:8.0-apache
     depends_on:
       - db
     volumes:
