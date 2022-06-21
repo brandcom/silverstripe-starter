@@ -18,7 +18,5 @@ Die Seite läuft jetzt im Browser unter http://localhost:8000/. Der Admin ist un
 ### Composer-Befehle ausführen
 
 ```
-$ docker run --rm --interactive --tty \
-  --volume $PWD/php/src:/app \
-  composer <command>
+docker run --rm --interactive --tty --volume $PWD:/app composer <command>
 ```

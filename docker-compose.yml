@@ -13,14 +13,13 @@ services:
       MARIADB_PASSWORD: silverstripe
 
   php-apache:
-    container_name: php-apache
     build:
-      context: ./php
+      context: .
       dockerfile: Dockerfile
     depends_on:
       - db
     volumes:
-      - ./php/src:/var/www/html/
+      - .:/var/www/html/
     ports:
       - "8000:80"
     environment:
@@ -37,7 +36,7 @@ services:
     image: composer/composer
     command: composer install --ignore-platform-reqs --no-interaction
     volumes:
-      - ./php/src:/app
+      - .:/app
 
 volumes:
   db_data: {}
