@@ -20,3 +20,10 @@ Die Seite läuft jetzt im Browser unter http://localhost:8000/. Der Admin ist un
 ```
 docker run --rm --interactive --tty --volume $PWD:/app composer <command>
 ```
+
+
+### Node-Befehle ausführen
+
+```
+ docker run --rm --interactive --tty --workdir /app --volume $PWD:/app node:18.4-alpine npm <command>
+```

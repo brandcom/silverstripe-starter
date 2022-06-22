@@ -7,7 +7,7 @@
     <meta name="description" content="$MetaDescription">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <% require themedCSS("main.css") %>
+    <% require themedCSS("app.min") %>
 </head>
 
 <body>
@@ -15,6 +15,6 @@
         $Layout
     </main>
 
-    <% require javascript("js/main.js") %>
+    <% require javascript("js/app.min.js") %>
 </body>
 </html>

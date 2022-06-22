@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   db:
-    image: mariadb
+    image: mariadb:10.5.15
     volumes:
       - db_data:/var/lib/mysql
     restart: always
@@ -18,8 +18,6 @@ services:
       - db
     volumes:
       - .:/var/www/html/
-    ports:
-      - "8000:80"
     environment:
       SS_DATABASE_CLASS: MySQLDatabase
       SS_DATABASE_SERVER: db
@@ -29,6 +27,15 @@ services:
       SS_ENVIRONMENT_TYPE: dev
       SS_DEFAULT_ADMIN_USERNAME: admin
       SS_DEFAULT_ADMIN_PASSWORD: admin
+
+  frontend:
+    image: node:18.4-alpine
+    command: /bin/sh -c "npm install && npm run start"
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
 
   composer:
     image: composer
