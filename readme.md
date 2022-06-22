@@ -8,11 +8,15 @@
 
 ### Install
 
-1. get the code
+1. Requirement
+
+You need to have Docker installed. So if you don't have it head over to https://www.docker.com/ and install it.
+
+2. Get the Code
 
 Via git: `git clone git@github.com:brandcom/silverstripe-docker-starter.git`
 
-or composer: `composer create-project -s dev  brandcom/silverstripe-docker-starter my-project`
+or composer: `composer create-project -s dev  brandcom/silverstripe-docker-starter silverstripe-docker-starter`
 
 or download zip: https://github.com/brandcom/silverstripe-docker-starter/archive/refs/heads/latest.zip
 
