@@ -15,12 +15,13 @@ services:
 
   web:
     container_name: web
-    image: silverstripecloud/base:8.0-apache
+    image: brettt89/silverstripe-web:8.0-apache
     depends_on:
       - db
     volumes:
       - .:/var/www/html/
     environment:
+      DOCUMENT_ROOT: /var/www/html/public
       SS_DATABASE_CLASS: MySQLDatabase
       SS_DATABASE_SERVER: db
       SS_DATABASE_USERNAME: silverstripe
