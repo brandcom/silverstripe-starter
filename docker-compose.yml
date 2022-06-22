@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   db:
+    container_name: db
     image: mariadb:10.5.15
     volumes:
       - db_data:/var/lib/mysql
@@ -13,6 +14,7 @@ services:
       MARIADB_PASSWORD: silverstripe
 
   web:
+    container_name: web
     image: silverstripecloud/base:8.0-apache
     depends_on:
       - db
