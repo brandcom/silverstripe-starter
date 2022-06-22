@@ -1,7 +1,8 @@
 {
-    "name": "silverstripe/installer",
+    "name": "brandcom/silverstripe-docker-starter",
     "type": "silverstripe-recipe",
-    "description": "The SilverStripe Framework Installer",
+    "description": "SilverStripe Docker Starter",
+    "license": "MIT",
     "require": {
         "php": "^8.0",
         "silverstripe/recipe-plugin": "^1.2",
@@ -36,6 +37,7 @@
         ]
     },
     "config": {
+        "sort-packages": true,
         "process-timeout": 600,
         "allow-plugins": {
             "composer/installers": true,
@@ -46,7 +48,5 @@
             "php": "8.0.16",
             "ext-intl": "0"
         }
-    },
-    "prefer-stable": true,
-    "minimum-stability": "dev"
+    }
 }

@@ -1,7 +1,7 @@
 {
   "name": "silverstripe-docker-starter",
   "version": "0.0.1",
-  "license": "proprietary",
+  "license": "MIT",
   "devDependencies": {
     "css-loader": "^6.7.1",
     "css-minimizer-webpack-plugin": "^4.0.0",

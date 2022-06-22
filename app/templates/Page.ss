@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de-DE">
+<html lang="$ContentLocale">
 <head>
     <% base_tag %>
     <meta charset="utf-8">
@@ -11,10 +11,7 @@
 </head>
 
 <body>
-    <main>
-        $Layout
-    </main>
-
+    $Layout
     <% require javascript("js/app.min.js") %>
 </body>
 </html>
