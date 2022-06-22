@@ -1,11 +1,8 @@
 # silverstripe docker starter
 
-Simplify the installation of a Silverstripe Dev Environment.
-
-It is based on the [silverstripe/installer](https://github.com/silverstripe/silverstripe-installer) and includes a
-`docker-compose.yml`-File, that spawns a webserver and a database to run Silverstripe. It also includes Webpack to
-compile scss/js and to autoreload the browser when you change anything.
-
+Simplify the installation of a Silverstripe Dev Environment. The silverstripe docker starter is based on
+the [silverstripe/installer](https://github.com/silverstripe/silverstripe-installer) and comes with a Docker Config to
+quickly setup everything you need to start coding.
 
 ## Disclaimer
 
@@ -14,7 +11,6 @@ WARNING
 This is still in beta and might change.  
 For local development only.  
 ‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️
-
 
 ## Install
 
@@ -36,10 +32,9 @@ or composer
 composer create-project -s dev  brandcom/silverstripe-docker-starter silverstripe-docker-starter
 ```
 
-or download a zip file 
+or download a zip file
 
 https://github.com/brandcom/silverstripe-docker-starter/archive/refs/heads/latest.zip
-
 
 **Start the containers**
 
@@ -48,16 +43,17 @@ cd silverstripe-docker-starter
 docker-compose up -d
 ```
 
+The first time you do this, it takes a while.
+
 Silverstripe is now running: http://localhost:8000/  
 The Admin is here: http://localhost:8000/admin/ (admin/admin)
 
-
 ## What's included?
 
-* SilverStripe 4.10.0 running on Apache with PHP8.0
+* SilverStripe 4.10.0 running on Apache with PHP8.0. Thanks
+  to [brettt89/silverstripe-docker](https://github.com/brettt89/silverstripe-docker).
 * MariaDB 10.5.15
 * Webpack 5.73.0 as frontend build tool with sass support and live reload
-
 
 ## Running commands
 
