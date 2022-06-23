@@ -23,7 +23,7 @@ You need to have Docker installed. So if you don't have it, head over to https:/
 Via git
 
 ```
-git clone git@github.com:brandcom/silverstripe-docker-starter.git && rm -fr silverstripe-docker-starter/.git`
+git clone git@github.com:brandcom/silverstripe-docker-starter.git && rm -fr silverstripe-docker-starter/.git
 ```
 
 or composer
