@@ -9,8 +9,10 @@ let config = {
         extensions: ['.js'],
     },
     output: {
-        path: __dirname + '/public',
+        assetModuleFilename: 'files/[hash][ext][query]',
+        clean: true,
         filename: 'js/[name].min.js',
+        path: __dirname + '/public',
         publicPath: '/',
     },
     module: {
@@ -18,6 +20,14 @@ let config = {
             {
                 test: /\.scss$/i,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+            },
+            {
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                type: 'asset/resource',
             },
         ],
     },
