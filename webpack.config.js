@@ -9,11 +9,10 @@ let config = {
         extensions: [".js"],
     },
     output: {
-        assetModuleFilename: "files/[hash][ext][query]",
         clean: true,
-        filename: "js/[name].min.js",
-        path: __dirname + "/public",
-        publicPath: "/",
+        filename: "[name].min.js",
+        path: __dirname + "/public/build",
+        publicPath: "/build",
     },
     module: {
         rules: [
@@ -44,7 +43,7 @@ let config = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: "css/[name].min.css",
+            filename: "[name].min.css",
         }),
     ],
     devServer: {
