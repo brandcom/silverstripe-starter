@@ -1,33 +1,41 @@
-const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 let config = {
     entry: {
-        app: './public_src/app.js',
+        app: "./public_src/app.js",
     },
     resolve: {
-        extensions: ['.js'],
+        extensions: [".js"],
     },
     output: {
-        assetModuleFilename: 'files/[hash][ext][query]',
+        assetModuleFilename: "files/[hash][ext][query]",
         clean: true,
-        filename: 'js/[name].min.js',
-        path: __dirname + '/public',
-        publicPath: '/',
+        filename: "js/[name].min.js",
+        path: __dirname + "/public",
+        publicPath: "/",
     },
     module: {
         rules: [
             {
                 test: /\.scss$/i,
-                use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
+                use: [
+                    MiniCssExtractPlugin.loader,
+                    "css-loader",
+                    {
+                        loader: "postcss-loader",
+                        options: { postcssOptions: { plugins: [["autoprefixer"]] } },
+                    },
+                    "sass-loader",
+                ],
             },
             {
                 test: /\.(png|svg|jpg|jpeg|gif)$/i,
-                type: 'asset/resource',
+                type: "asset/resource",
             },
             {
                 test: /\.(woff|woff2|eot|ttf|otf)$/i,
-                type: 'asset/resource',
+                type: "asset/resource",
             },
         ],
     },
@@ -36,27 +44,27 @@ let config = {
     },
     plugins: [
         new MiniCssExtractPlugin({
-            filename: 'css/[name].min.css',
+            filename: "css/[name].min.css",
         }),
     ],
     devServer: {
-        host: '0.0.0.0',
+        host: "0.0.0.0",
         port: 8000,
         open: false,
-        watchFiles: ['./app/templates/**/*.ss'],
+        watchFiles: ["./app/templates/**/*.ss"],
         proxy: {
             context: () => true,
-            target: 'http://web',
+            target: "http://web",
             onError(err) {
-                console.log('Suppressing WDS proxy upgrade error:', err);
+                console.log("Suppressing WDS proxy upgrade error:", err);
             },
         },
     },
 };
 
 module.exports = (env, argv) => {
-    if (argv.mode === 'development') {
-        config.devtool = 'source-map';
+    if (argv.mode === "development") {
+        config.devtool = "source-map";
     }
 
     return config;
