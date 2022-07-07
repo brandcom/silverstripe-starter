@@ -50,7 +50,7 @@ The Admin is here: http://localhost:8000/admin/ (admin/admin)
 
 ## What's included?
 
-* SilverStripe 4.10.0 running on Apache with PHP8.0. Thanks
+* SilverStripe 4.11 running on Apache with PHP8.0. Thanks
   to [brettt89/silverstripe-docker](https://github.com/brettt89/silverstripe-docker).
 * MariaDB 10.5.15
 * Webpack 5.73.0 as frontend build tool with sass support and live reload
