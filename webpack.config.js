@@ -12,7 +12,7 @@ let config = {
         clean: true,
         filename: "[name].min.js",
         path: __dirname + "/public/build",
-        publicPath: "/build",
+        publicPath: "/build/",
     },
     module: {
         rules: [
