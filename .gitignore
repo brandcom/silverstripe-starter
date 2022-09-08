@@ -5,3 +5,4 @@
 /public/_resources/
 /silverstripe-cache/
 /vendor/
+node_modules
