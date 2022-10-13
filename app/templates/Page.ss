@@ -13,6 +13,7 @@
     <meta property="og:image" content="">
 
     <% require themedCSS("build/app.min") %>
+    <% include Tracking %>
 </head>
 
 <body>

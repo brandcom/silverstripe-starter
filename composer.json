@@ -6,6 +6,7 @@
     "require": {
         "php": "^8.0",
         "dnadesign/silverstripe-elemental": "^4.9",
+        "jbennecker/silverstripe-analytics": "^1.0",
         "silverstripe/login-forms": "~4.7.0@stable",
         "silverstripe/recipe-cms": "~4.11.0@stable",
         "silverstripe/recipe-plugin": "^1.2"
