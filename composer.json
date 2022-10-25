@@ -4,7 +4,7 @@
     "description": "Simplify the installation of a Silverstripe Dev Environment.",
     "license": "MIT",
     "require": {
-        "php": "^8.0",
+        "php": "^8.1",
         "dnadesign/silverstripe-elemental": "^4.9",
         "jbennecker/silverstripe-analytics": "^1.0",
         "silverstripe/login-forms": "~4.7.0@stable",
@@ -40,7 +40,7 @@
         }
     },
     "platform": {
-        "php": "8.0.20",
+        "php": "8.1.7",
         "ext-intl": "0"
     }
 }

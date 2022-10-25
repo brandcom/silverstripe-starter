@@ -16,7 +16,7 @@ services:
 
   web:
     container_name: web
-    image: brettt89/silverstripe-web:8.0-apache
+    image: brettt89/silverstripe-web:8.1-apache
     depends_on:
       - db
     volumes:
