@@ -47,17 +47,22 @@ let config = {
         }),
     ],
     devServer: {
-        host: '0.0.0.0',
-        port: 8000,
-        open: false,
-        watchFiles: ['./app/templates/**/*.ss'],
+        open: true,
+        watchFiles: [
+            './app/templates/**/*.ss',
+        ],
         proxy: {
             context: () => true,
-            target: 'http://web',
+            target: 'https://', // enter your local dev url here
+            secure: false,
+            changeOrigin: true,
             onError(err) {
                 console.log('Suppressing WDS proxy upgrade error:', err);
             },
         },
+        https: true,
+        port: 3000,
+        hot: true,
     },
 };
 

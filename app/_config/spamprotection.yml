@@ -1,5 +1,0 @@
----
-name: spamprotection
----
-SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
-  default_spam_protector: jbennecker\HoneypotProtection\HoneypotProtector

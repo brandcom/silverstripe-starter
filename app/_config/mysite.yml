@@ -21,3 +21,6 @@ ElementalPage:
   disallowed_elements:
     - BaseElement
     - DNADesign\Elemental\Models\ElementContent
+
+SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
+  default_spam_protector: jbennecker\HoneypotProtection\HoneypotProtector
