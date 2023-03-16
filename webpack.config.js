@@ -53,7 +53,7 @@ let config = {
         ],
         proxy: {
             context: () => true,
-            target: 'https://', // enter your local dev url here
+            target: 'https://',  // enter your local dev url here
             secure: false,
             changeOrigin: true,
             onError(err) {

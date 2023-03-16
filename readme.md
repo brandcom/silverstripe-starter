@@ -1,34 +1,63 @@
 # silverstripe starter
 
-Simplify the installation of a Silverstripe Dev Environment. The silverstripe starter is based on
-the [silverstripe/installer](https://github.com/silverstripe/silverstripe-installer) and comes with a Docker Config to
-quickly setup everything you need to start coding.
-
-## Disclaimer
+Der SilverStripe Starter ist ein Tool, das die Einrichtung einer SilverStripe-Entwicklungsumgebung vereinfacht. Das Tool basiert auf dem [silverstripe/installer](https://github.com/silverstripe/silverstripe-installer) und enthält wesentliche Plugins sowie ein Front-End-Build-Tool.
 
 ‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️  
-WARNING  
-Das ist noch Beta  
+ACHTUNG:  
+Dies ist noch Beta-Software.  
+Es können sich Änderungen ergeben.  
 ‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️
 
-## What's included?
+
+## Was ist enthalten?
 
 * SilverStripe 4.12
 * Silverstripe Elemental
 * Silverstripe Stats Plugin für Matomo und Cookiebot
 * Silverstripe Honeypot Protection für Spamschutz
-* Webpack als Front-end-build-tool für scss und Javascript imports
+* Webpack als Front-End-Build-Tool für SCSS- und JavaScript-Imports
 
 
+## Installation
 
-## Install
+```sh
+# Laden den Code herunter
+git clone git@github.com:brandcom/silverstripe-starter.git
 
-**Requirements**
+# Initialisieren das Git-Repository
+rm -fr silverstripe-starter/.git
+cd silverstripe-starter
+git init
+git add .
+git commit -m "initial commit"
 
-**Get the Code**
-
-Via git
-
+# Installieren die Abhängigkeiten
+php81 composer.phar install
+yarn install
 ```
-git clone git@github.com:brandcom/silverstripe-docker-starter.git && rm -fr silverstripe-docker-starter/.git
+
+Erstelle einen neuen Virtual Host in MAMP und legen eine neue Datenbank an.
+
+Bearbeite die Datei `webpack.config.js` und trage in Zeile 56 die URL aus MAMP ein.
+
+```sh
+vim webpack.config.js
+```
+
+Kopiere die Datei .env.example zu .env und trage dort deine MySQL-Zugangsdaten ein.
+
+```sh
+cp .env.example .env
+```
+
+Kopiere die Datei `app/_config/env.yml.example` zu `app/_config/env.yml`.
+
+```sh
+cp app/_config/env.yml.example app/_config/env.yml
+```
+
+Starte die Entwicklung.
+
+```sh
+yarn run start
 ```

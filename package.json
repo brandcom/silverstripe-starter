@@ -1,7 +1,6 @@
 {
-  "name": "silverstripe-docker-starter",
+  "name": "silverstripe-starter",
   "version": "0.0.1",
-  "license": "MIT",
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "css-loader": "^6.7.1",
