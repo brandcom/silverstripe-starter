@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="$ContentLocale">
+<html lang="$ContentLocale" dir="ltr">
 <head>
     <% base_tag %>
     <meta charset="utf-8">
