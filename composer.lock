@@ -2364,16 +2364,16 @@
         },
         {
             "name": "silverstripe/admin",
-            "version": "1.12.4",
+            "version": "1.12.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-admin.git",
-                "reference": "8740b5e7263488c1fa254084f237ac3271bd3754"
+                "reference": "11520312fb186a5885cd9c67d95b593ad5aca233"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/8740b5e7263488c1fa254084f237ac3271bd3754",
-                "reference": "8740b5e7263488c1fa254084f237ac3271bd3754",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/11520312fb186a5885cd9c67d95b593ad5aca233",
+                "reference": "11520312fb186a5885cd9c67d95b593ad5aca233",
                 "shasum": ""
             },
             "require": {
@@ -2429,9 +2429,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-admin/issues",
-                "source": "https://github.com/silverstripe/silverstripe-admin/tree/1.12.4"
+                "source": "https://github.com/silverstripe/silverstripe-admin/tree/1.12.5"
             },
-            "time": "2023-03-15T22:01:42+00:00"
+            "time": "2023-03-17T18:51:27+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
