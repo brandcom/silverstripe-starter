@@ -4,13 +4,13 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 
 ## Was ist enthalten?
 
--   Silverstripe 4.12
--   Silverstripe Elemental
--   Silverstripe Googlesitemaps
--   [Silverstripe Honeypot Protection](https://github.com/brandcom/silverstripe-honeypotprotection) für Spamschutz
--   [Silverstripe Stats Plugin](https://github.com/brandcom/silverstripe-analytics) für Matomo und Cookiebot
--   [Webpack](https://webpack.js.org/) als Front-End-Build-Tool für SCSS und JavaScript-Imports
--   Automatisches Formatieren von Dateien mit [Prettier](https://prettier.io/) bei GIT Commit.
+- Silverstripe 4.12
+- Silverstripe Elemental
+- Silverstripe Googlesitemaps
+- [Silverstripe Honeypot Protection](https://github.com/brandcom/silverstripe-honeypotprotection) für Spamschutz
+- [Silverstripe Stats Plugin](https://github.com/brandcom/silverstripe-analytics) für Matomo und Cookiebot
+- [Webpack](https://webpack.js.org/) als Front-End-Build-Tool für SCSS und JavaScript-Imports
+- Automatisches Formatieren von Dateien mit [Prettier](https://prettier.io/) bei GIT Commit.
 
 ## Installation
 
@@ -55,3 +55,9 @@ Starte die Entwicklung.
 ```sh
 yarn run start
 ```
+
+## Deploy
+
+> Bitte dokumentiere hier kurz, wie Änderungen an der Website live geschaltet werden und was sonst noch wichtig für das
+> Projekt sein könnte. Du kannst dich an der Readme von brandcom.de orientieren.
+> Siehe: https://github.com/brandcom/brandcom.de#deploy
