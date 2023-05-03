@@ -56,6 +56,12 @@ Starte die Entwicklung.
 yarn run start
 ```
 
+## Front-end Build
+
+```sh
+yarn run build
+```
+
 ## Deploy
 
 > Bitte dokumentiere hier kurz, wie Änderungen an der Website live geschaltet werden und was sonst noch wichtig für das
