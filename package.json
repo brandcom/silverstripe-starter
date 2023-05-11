@@ -26,7 +26,8 @@
     "start": "webpack serve --mode=development"
   },
   "lint-staged": {
-    "*.{html,js,json,md,php,scss,yml}": "prettier --write"
+    "*.{html,json,md,php,scss,yml}": "prettier --write",
+    "public_src/**/*.js": "prettier --write"
   },
   "prettier": {
     "printWidth": 120
