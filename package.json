@@ -6,6 +6,8 @@
     "autoprefixer": "^10.4.14",
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.1",
+    "husky": "^8.0.0",
+    "lint-staged": ">=10",
     "mini-css-extract-plugin": "^2.7.6",
     "postcss": "^8.4.26",
     "postcss-loader": "^7.3.3",
@@ -21,9 +23,14 @@
   ],
   "scripts": {
     "build": "webpack --mode=production",
-    "start": "webpack serve --mode=development"
+    "start": "webpack serve --mode=development",
+    "prepare": "husky install"
   },
   "prettier": {
     "printWidth": 120
+  },
+  "lint-staged": {
+    "*.{html,json,md,php,scss,yml}": "prettier --write",
+    "public_src/**/*.js": "prettier --write"
   }
 }
