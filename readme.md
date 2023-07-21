@@ -15,18 +15,16 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 
 ## Installation
 
+Nutze den "Use this template" Button um ein neues Repository für ein Projekt anzulegen und clone danach dein neues Projekt.
+
 ```sh
 # Lade den Code herunter
-git clone git@github.com:brandcom/silverstripe-starter.git
+git clone git@github.com:brandcom/{{dein-projekt}}
+```
 
-# Initialisiere ein neues Git-Repository
-cd silverstripe-starter
-rm -rf .git
-git init
-git add .
-git commit -m "initial commit"
+Installiere die Abhängigkeiten.
 
-# Installiere die Abhängigkeiten
+```
 php81 composer.phar install
 yarn install
 ```
