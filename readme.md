@@ -106,6 +106,22 @@ In der Datei `public_src/style.scss`
 @tailwind utilities;
 ```
 
+5. Jetzt kannst du TailwindCSS verwenden.
+
+Starte Webpack
+
+```
+yarn run start
+```
+
+Und verwende TailwindCSS in deinen Templates.
+
+```
+<h1 class="text-3xl font-bold underline">
+    Hello world!
+</h1>
+```
+
 ## Deploy
 
 > Bitte dokumentiere hier kurz, wie Änderungen an der Website live geschaltet werden und was sonst noch wichtig für das
