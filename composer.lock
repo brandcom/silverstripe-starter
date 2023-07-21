@@ -2882,16 +2882,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "5.0.10",
+            "version": "5.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "9b2aee10dcee922f9da5b759a9a1f6274d1457af"
+                "reference": "27ccbf77e360b35f311b2115aa43b97504c7a1a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/9b2aee10dcee922f9da5b759a9a1f6274d1457af",
-                "reference": "9b2aee10dcee922f9da5b759a9a1f6274d1457af",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/27ccbf77e360b35f311b2115aa43b97504c7a1a0",
+                "reference": "27ccbf77e360b35f311b2115aa43b97504c7a1a0",
                 "shasum": ""
             },
             "require": {
@@ -3005,9 +3005,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-framework/issues",
-                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.0.10"
+                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.0.12"
             },
-            "time": "2023-07-11T23:56:09+00:00"
+            "time": "2023-07-21T01:00:47+00:00"
         },
         {
             "name": "silverstripe/googlesitemaps",
