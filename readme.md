@@ -62,6 +62,51 @@ yarn run start
 yarn run build
 ```
 
+## TailwindCSS
+
+1. TailwindCSS installieren
+
+```
+yarn add -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+```
+
+2. Füge Tailwind zur Webpack-Konfiguration hinzu
+
+Bearbeite die Datei webpack.config.js und füge in Zeile 26 Tailwind als PostCSS-Option hinzu:
+
+```
+"css-loader",
+{
+    loader: "postcss-loader",
+    options: { postcssOptions: { plugins: ["tailwindcss", "autoprefixer"] } },
+},
+```
+
+3. Konfiguriere die Template-Pfade
+
+Füge die Pfade zu deinen Template-Dateien zur `tailwind.config.js` hinzu.
+
+```
+module.exports = {
+  content: ["./app/templates/**/*.ss", "./public_src/**/*.js"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
+
+4. Füge die Tailwind-Direktiven zu deinen Styles hinzu
+
+In der Datei `public_src/style.scss`
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
 ## Deploy
 
 > Bitte dokumentiere hier kurz, wie Änderungen an der Website live geschaltet werden und was sonst noch wichtig für das
