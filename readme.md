@@ -15,10 +15,10 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 
 ## Installation
 
-Nutze den "Use this template" Button um ein neues Repository für ein Projekt anzulegen und clone danach dein neues Projekt.
+Nutze den "Use this template" Button um ein neues Repository für ein Projekt anzulegen und klone danach dein neues Projekt.
 
 ```sh
-# Lade den Code herunter
+# Klone dein Repository
 git clone git@github.com:brandcom/{{dein-projekt}}
 ```
 
