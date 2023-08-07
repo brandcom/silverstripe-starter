@@ -26,7 +26,7 @@ git clone git@github.com:brandcom/{{dein-projekt}}
 Installiere die Abhängigkeiten.
 
 ```
-php81 composer.phar install
+php82 composer.phar install
 yarn install
 ```
 
