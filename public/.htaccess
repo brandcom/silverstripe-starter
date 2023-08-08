@@ -52,14 +52,16 @@ ErrorDocument 500 /assets/error-500.html
     RewriteEngine On
 
     # Rewrite http to https
-    RewriteCond %{HTTP_HOST} !\kasserver\.com$
+    RewriteCond %{HTTP_HOST} !kasserver\.com$
     RewriteCond %{SERVER_NAME} !\.local$
+    RewriteCond %{SERVER_NAME} !localhost$
     RewriteCond %{SERVER_PORT}   !^443$
     RewriteRule  (.*)  https://%{HTTP_HOST}/$1   [L]
 
-    # Rewrite non-www to www
-    RewriteCond %{HTTP_HOST} !\kasserver\.com$
+    # # Rewrite non-www to www
+    RewriteCond %{HTTP_HOST} !kasserver\.com$
 	RewriteCond %{SERVER_NAME} !\.local$
+    RewriteCond %{SERVER_NAME} !localhost$
 	RewriteCond %{HTTP_HOST} !^preview\.
     RewriteCond %{HTTP_HOST} !^www\. [NC]
     RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
