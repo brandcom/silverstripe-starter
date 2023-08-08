@@ -33,7 +33,7 @@ yarn install
 Erstelle einen neuen Virtual Host in MAMP und lege eine neue Datenbank an.
 Einige Einstellungen in der .htaccess-Datei gehen davon aus, dass Dein Dev-Server im MAMP auf ".local" endet.
 
-Bearbeite die Datei `webpack.config.js` und trage in Zeile 56 die URL aus MAMP ein.
+Bearbeite die Datei `webpack.config.js` und trage in Zeile 54 die Host-URL aus MAMP ein (mit Port-Nummer, MAMP-Default: 8890).
 
 ```sh
 vim webpack.config.js

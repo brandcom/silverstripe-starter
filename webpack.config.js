@@ -51,7 +51,7 @@ let config = {
         watchFiles: ["./app/templates/**/*.ss"],
         proxy: {
             context: () => true,
-            target: "https://silverstripe-starter.local", // enter your local dev url here
+            target: "https://silverstripe-starter.local:8890", // enter your local dev url here
             secure: false,
             changeOrigin: true,
             onError(err) {
