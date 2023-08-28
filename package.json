@@ -1,8 +1,9 @@
 {
   "name": "silverstripe-starter",
   "version": "0.0.2",
+  "dependencies": {},
   "devDependencies": {
-    "@prettier/plugin-php": "^0.20.1",
+    "@prettier/plugin-php": "^0.19.7",
     "autoprefixer": "^10.4.15",
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.1",
@@ -11,7 +12,7 @@
     "mini-css-extract-plugin": "^2.7.6",
     "postcss": "^8.4.28",
     "postcss-loader": "^7.3.3",
-    "prettier": "^3.0.2",
+    "prettier": "^2.8.8",
     "sass": "^1.66.1",
     "sass-loader": "^13.3.2",
     "webpack": "^5.88.2",
@@ -23,8 +24,9 @@
   ],
   "scripts": {
     "build": "webpack --mode=production",
-    "start": "webpack serve --mode=development",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "prettier": "prettier",
+    "start": "webpack serve --mode=development"
   },
   "prettier": {
     "printWidth": 120
@@ -32,6 +34,5 @@
   "lint-staged": {
     "*.{html,json,md,php,scss,yml}": "prettier --write",
     "public_src/**/*.js": "prettier --write"
-  },
-  "dependencies": {}
+  }
 }
