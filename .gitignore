@@ -2,8 +2,8 @@
 /.graphql-generated/
 /_resources/
 /app/_config/env.yml
+/node_modules/
 /public/_graphql/
 /public/_resources/
 /silverstripe-cache/
 /vendor/
-node_modules
