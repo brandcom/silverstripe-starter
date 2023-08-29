@@ -1,3 +1,7 @@
+### Das ist die .htaccess für LIVE
+### .htaccess Einstellungen für DEV bitte in die .htaccess
+
+
 ### SILVERSTRIPE START ###
 
 # Deny access to templates (but allow from localhost)

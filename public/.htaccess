@@ -1,3 +1,7 @@
+### Das ist die .htaccess für DEV
+### .htaccess Einstellungen für LIVE bitte in die .htaccess.master
+
+
 ### SILVERSTRIPE START ###
 
 # Deny access to templates (but allow from localhost)
@@ -58,7 +62,7 @@ ErrorDocument 500 /assets/error-500.html
     RewriteCond %{SERVER_PORT}   !^443$
     RewriteRule  (.*)  https://%{HTTP_HOST}/$1   [L]
 
-    # # Rewrite non-www to www
+    # Rewrite non-www to www
     RewriteCond %{HTTP_HOST} !kasserver\.com$
 	RewriteCond %{SERVER_NAME} !\.local$
     RewriteCond %{SERVER_NAME} !localhost$
