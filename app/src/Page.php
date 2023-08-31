@@ -7,7 +7,7 @@ use SilverStripe\Forms\TextField;
 class Page extends SiteTree
 {
     private static $db = [
-        'MetaTitle' => 'Varchar(255)',
+        "MetaTitle" => "Varchar(255)",
     ];
 
     public function getCanonicalUrl(): string
@@ -17,13 +17,13 @@ class Page extends SiteTree
 
     public function getBaseUrl(): string
     {
-        return rtrim(Director::absoluteBaseURL(), '/');
+        return rtrim(Director::absoluteBaseURL(), "/");
     }
 
     public function getCMSFields()
     {
         $fields = parent::getCMSFields();
-        $fields->addFieldToTab('Root.Main', TextField::create('MetaTitle', 'MetaTitle'));
+        $fields->addFieldToTab("Root.Main", TextField::create("MetaTitle", "MetaTitle"));
 
         return $fields;
     }

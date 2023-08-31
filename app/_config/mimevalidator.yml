@@ -1,8 +1,8 @@
 ---
 Name: app-mimeuploadvalidator
-After: '#mimeuploadvalidator'
+After: "#mimeuploadvalidator"
 Only:
-  moduleexists: 'silverstripe/mimevalidator'
+  moduleexists: "silverstripe/mimevalidator"
 ---
 SilverStripe\Core\Injector\Injector:
   SilverStripe\Assets\Upload_Validator:

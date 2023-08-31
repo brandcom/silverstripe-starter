@@ -23,7 +23,7 @@ let config = {
                     "css-loader",
                     {
                         loader: "postcss-loader",
-                        options: { postcssOptions: { plugins: [["autoprefixer"]] } },
+                        options: { postcssOptions: { plugins: ["autoprefixer"] } },
                     },
                     "sass-loader",
                 ],
