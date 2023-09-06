@@ -2,7 +2,6 @@
     "name": "brandcom/silverstripe-starter",
     "type": "silverstripe-recipe",
     "description": "Simplify the installation of a Silverstripe Dev Environment.",
-    "license": "MIT",
     "require": {
         "php": "8.2.*",
         "dnadesign/silverstripe-elemental": "^5.0",

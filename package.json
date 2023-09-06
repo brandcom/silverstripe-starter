@@ -1,5 +1,6 @@
 {
   "name": "silverstripe-starter",
+  "license": "UNLICENSED",
   "version": "0.0.2",
   "dependencies": {},
   "devDependencies": {
@@ -10,7 +11,7 @@
     "husky": "^8.0.0",
     "lint-staged": ">=14.0.1",
     "mini-css-extract-plugin": "^2.7.6",
-    "postcss": "^8.4.28",
+    "postcss": "^8.4.29",
     "postcss-loader": "^7.3.3",
     "prettier": "^2.8.8",
     "sass": "^1.66.1",
