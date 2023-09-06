@@ -8,7 +8,7 @@ class PageController extends ContentController
     {
         parent::init();
 
-        // https://docs.silverstripe.org/en/4/developer_guides/security/secure_coding/#clickjacking-prevent-iframe-inclusion
+        // https://docs.silverstripe.org/en/5/developer_guides/security/secure_coding/#clickjacking-prevent-iframe-inclusion
         $this->getResponse()->addHeader("X-Frame-Options", "SAMEORIGIN");
     }
 }
