@@ -2662,16 +2662,16 @@
         },
         {
             "name": "silverstripe/cms",
-            "version": "5.0.4",
+            "version": "5.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "b8e30925e86cadfe5b7df718849402fbca42ad90"
+                "reference": "7e42058206793f16b69e2732f06be739ee46b275"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/b8e30925e86cadfe5b7df718849402fbca42ad90",
-                "reference": "b8e30925e86cadfe5b7df718849402fbca42ad90",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/7e42058206793f16b69e2732f06be739ee46b275",
+                "reference": "7e42058206793f16b69e2732f06be739ee46b275",
                 "shasum": ""
             },
             "require": {
@@ -2686,7 +2686,7 @@
                 "silverstripe/versioned-admin": "^2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.5",
+                "phpunit/phpunit": "^9.6",
                 "squizlabs/php_codesniffer": "^3.7"
             },
             "type": "silverstripe-vendormodule",
@@ -2728,9 +2728,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-cms/issues",
-                "source": "https://github.com/silverstripe/silverstripe-cms/tree/5.0.4"
+                "source": "https://github.com/silverstripe/silverstripe-cms/tree/5.0.5"
             },
-            "time": "2023-08-26T13:23:33+00:00"
+            "time": "2023-09-05T03:19:35+00:00"
         },
         {
             "name": "silverstripe/config",
