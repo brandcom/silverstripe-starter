@@ -1007,17 +1007,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brandcom/silverstripe-analytics.git",
-                "reference": "ec6fef0047aa2a7eb99affa44eb99f7af89bb484"
+                "reference": "b59aa5eb0f920cff73a34186da61afb892a4962a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brandcom/silverstripe-analytics/zipball/ec6fef0047aa2a7eb99affa44eb99f7af89bb484",
-                "reference": "ec6fef0047aa2a7eb99affa44eb99f7af89bb484",
+                "url": "https://api.github.com/repos/brandcom/silverstripe-analytics/zipball/b59aa5eb0f920cff73a34186da61afb892a4962a",
+                "reference": "b59aa5eb0f920cff73a34186da61afb892a4962a",
                 "shasum": ""
             },
             "require": {
                 "silverstripe/framework": "^5"
             },
+            "default-branch": true,
             "type": "silverstripe-vendormodule",
             "autoload": {
                 "psr-4": {
@@ -1035,7 +1036,7 @@
                 "issues": "https://github.com/brandcom/silverstripe-analytics/issues",
                 "source": "https://github.com/brandcom/silverstripe-analytics/tree/ss5"
             },
-            "time": "2023-05-08T12:56:18+00:00"
+            "time": "2023-09-06T12:17:06+00:00"
         },
         {
             "name": "jbennecker/silverstripe-honeypotprotection",
@@ -2883,16 +2884,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "5.0.20",
+            "version": "5.0.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "15eade82801ea6364e860c46d3cbdadfe33f7849"
+                "reference": "2c9beab760c8840787006a9bd404d745555412ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/15eade82801ea6364e860c46d3cbdadfe33f7849",
-                "reference": "15eade82801ea6364e860c46d3cbdadfe33f7849",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/2c9beab760c8840787006a9bd404d745555412ad",
+                "reference": "2c9beab760c8840787006a9bd404d745555412ad",
                 "shasum": ""
             },
             "require": {
@@ -3006,9 +3007,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-framework/issues",
-                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.0.20"
+                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.0.21"
             },
-            "time": "2023-08-29T08:25:45+00:00"
+            "time": "2023-09-06T21:13:05+00:00"
         },
         {
             "name": "silverstripe/googlesitemaps",
