@@ -4,11 +4,7 @@ Name: myproject
 SilverStripe\Core\Manifest\ModuleManifest:
   project: app
 
-# UTF8MB4 has limited support in older MySQL versions.
-# Remove this configuration if you experience issues.
----
-Name: myproject-database
----
+# Aktiviert UTF8MB4-Codierung für die Verwendung von Emojis 😃
 SilverStripe\ORM\Connect\MySQLDatabase:
   connection_charset: utf8mb4
   connection_collation: utf8mb4_unicode_ci
@@ -22,9 +18,10 @@ ElementalPage:
     - BaseElement
     - DNADesign\Elemental\Models\ElementContent
 
+# Setzt den Standard-Spamschutz für Formulare
 SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
   default_spam_protector: jbennecker\HoneypotProtection\HoneypotProtector
 
-# Fluent-Cookie für DSGVO deaktivieren
+# Deaktiviert das Fluent-Cookie für DSGVO-Konformität
 TractorCow\Fluent\Middleware\DetectLocaleMiddleware:
   persist_cookie: false
