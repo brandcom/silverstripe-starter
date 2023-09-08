@@ -8,6 +8,7 @@
         "dnadesign/silverstripe-elemental-userforms": "^4.0",
         "jbennecker/silverstripe-analytics": "dev-ss5",
         "jbennecker/silverstripe-honeypotprotection": "dev-ss5",
+        "jbennecker/silverstripe-webp": "dev-ss5",
         "silverstripe/googlesitemaps": "^3.0",
         "silverstripe/login-forms": "^5.0.0",
         "silverstripe/recipe-cms": "^5.0.0",

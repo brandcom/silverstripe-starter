@@ -18,6 +18,10 @@ ElementalPage:
     - BaseElement
     - DNADesign\Elemental\Models\ElementContent
 
+SilverStripe\Assets\Image:
+  extensions:
+    - jbennecker\Webp\WebpExtension
+
 # Setzt den Standard-Spamschutz für Formulare
 SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
   default_spam_protector: jbennecker\HoneypotProtection\HoneypotProtector
