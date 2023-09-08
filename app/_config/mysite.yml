@@ -24,3 +24,7 @@ ElementalPage:
 
 SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
   default_spam_protector: jbennecker\HoneypotProtection\HoneypotProtector
+
+# Fluent-Cookie für DSGVO deaktivieren
+TractorCow\Fluent\Middleware\DetectLocaleMiddleware:
+  persist_cookie: false
