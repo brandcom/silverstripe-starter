@@ -11,6 +11,7 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 -   Silverstripe Redirected URLs
 -   [Silverstripe Honeypot Protection](https://github.com/brandcom/silverstripe-honeypotprotection) für Spamschutz
 -   [Silverstripe Stats Plugin](https://github.com/brandcom/silverstripe-analytics) für Matomo und Cookiebot
+-   [Silverstripe Webp Plugin](https://github.com/brandcom/silverstripe-webp) für Webp-Bilder
 -   [Webpack](https://webpack.js.org/) als Front-End-Build-Tool für SCSS und JavaScript-Imports
 -   Automatisches Formatieren von Dateien mit [Prettier](https://prettier.io/) bei GIT Commit.
 
