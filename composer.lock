@@ -2915,16 +2915,16 @@
         },
         {
             "name": "silverstripe/admin",
-            "version": "2.0.11",
+            "version": "2.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-admin.git",
-                "reference": "8c89bb32609509144cf8825511902c6163cf4f9e"
+                "reference": "e22d0424e37c7149f01595d83ad021eaf9175aa9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/8c89bb32609509144cf8825511902c6163cf4f9e",
-                "reference": "8c89bb32609509144cf8825511902c6163cf4f9e",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/e22d0424e37c7149f01595d83ad021eaf9175aa9",
+                "reference": "e22d0424e37c7149f01595d83ad021eaf9175aa9",
                 "shasum": ""
             },
             "require": {
@@ -2978,9 +2978,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-admin/issues",
-                "source": "https://github.com/silverstripe/silverstripe-admin/tree/2.0.11"
+                "source": "https://github.com/silverstripe/silverstripe-admin/tree/2.0.12"
             },
-            "time": "2023-09-11T00:32:19+00:00"
+            "time": "2023-09-17T22:45:21+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -3175,16 +3175,16 @@
         },
         {
             "name": "silverstripe/cms",
-            "version": "5.0.5",
+            "version": "5.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "7e42058206793f16b69e2732f06be739ee46b275"
+                "reference": "6259ca30ad7d4aae447c83ba7c9acca8f86f3a86"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/7e42058206793f16b69e2732f06be739ee46b275",
-                "reference": "7e42058206793f16b69e2732f06be739ee46b275",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/6259ca30ad7d4aae447c83ba7c9acca8f86f3a86",
+                "reference": "6259ca30ad7d4aae447c83ba7c9acca8f86f3a86",
                 "shasum": ""
             },
             "require": {
@@ -3241,9 +3241,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-cms/issues",
-                "source": "https://github.com/silverstripe/silverstripe-cms/tree/5.0.5"
+                "source": "https://github.com/silverstripe/silverstripe-cms/tree/5.0.6"
             },
-            "time": "2023-09-05T03:19:35+00:00"
+            "time": "2023-09-17T23:10:29+00:00"
         },
         {
             "name": "silverstripe/config",
@@ -4273,16 +4273,16 @@
         },
         {
             "name": "silverstripe/userforms",
-            "version": "6.0.6",
+            "version": "6.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "0e66e78de7b87abfcc5d73c78ad19b37e9d4b31a"
+                "reference": "ca449db3da613f567ab5285ecdd797e1b0b8bedc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/0e66e78de7b87abfcc5d73c78ad19b37e9d4b31a",
-                "reference": "0e66e78de7b87abfcc5d73c78ad19b37e9d4b31a",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/ca449db3da613f567ab5285ecdd797e1b0b8bedc",
+                "reference": "ca449db3da613f567ab5285ecdd797e1b0b8bedc",
                 "shasum": ""
             },
             "require": {
@@ -4298,7 +4298,7 @@
                 "egulias/email-validator": "^2"
             },
             "require-dev": {
-                "phpunit/phpunit": "^9.5",
+                "phpunit/phpunit": "^9.6",
                 "squizlabs/php_codesniffer": "^3"
             },
             "suggest": {
@@ -4354,9 +4354,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-userforms/issues",
-                "source": "https://github.com/silverstripe/silverstripe-userforms/tree/6.0.6"
+                "source": "https://github.com/silverstripe/silverstripe-userforms/tree/6.0.7"
             },
-            "time": "2023-08-23T12:38:11+00:00"
+            "time": "2023-09-17T22:51:19+00:00"
         },
         {
             "name": "silverstripe/vendor-plugin",
