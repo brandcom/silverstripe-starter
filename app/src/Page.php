@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 use SilverStripe\CMS\Model\SiteTree;
 use SilverStripe\Control\Director;
 use SilverStripe\Forms\TextField;

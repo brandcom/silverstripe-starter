@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 class BaseElement extends \DNADesign\Elemental\Models\BaseElement
 {
     public function forTemplate($holder = true)
