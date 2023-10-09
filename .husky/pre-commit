@@ -5,3 +5,6 @@ npx lint-staged
 
 echo "Running PHPStan"
 ./vendor/bin/phpstan analyse app
+
+echo "Running PHP CodeSniffer"
+./vendor/bin/phpcs app --standard=PSR12 --exclude=PSR1.Classes.ClassDeclaration

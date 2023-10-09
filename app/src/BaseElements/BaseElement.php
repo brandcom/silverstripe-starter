@@ -15,7 +15,10 @@ class BaseElement extends \DNADesign\Elemental\Models\BaseElement
         return $this->renderWith("BaseElements/" . $this->ClassName);
     }
 
-    public function getType()
+    /**
+     * Gibt den Namen des BaseElements für die Auswahl im CMS zurück.
+     */
+    public function getType(): string
     {
         return str_replace("BaseElement", "", $this->ClassName);
     }
