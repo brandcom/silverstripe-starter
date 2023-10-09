@@ -8,7 +8,7 @@ use SilverStripe\Forms\TextField;
 
 class Page extends SiteTree
 {
-    private static $db = [
+    private static array $db = [
         "MetaTitle" => "Varchar(255)",
     ];
 

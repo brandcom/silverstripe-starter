@@ -41,5 +41,8 @@
         }
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpstan/phpstan": "^1.10"
+    }
 }
