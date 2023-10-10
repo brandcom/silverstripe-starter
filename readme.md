@@ -15,6 +15,7 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 -   [Webpack](https://webpack.js.org/) als Front-End-Build-Tool für SCSS und modernes JavaScript
 -   Beim Committen werden automatisch folgende Tools ausgeführt
     -   [Prettier](https://prettier.io/) formatiert den Code und macht ihn "schöner".
+    -   [Stylelint](https://stylelint.io/) - prüft den SCSS-Code auf Fehler.
     -   [PHPStan](https://phpstan.org/) prüft den PHP-Code auf Fehler.
     -   [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) prüft, ob der PSR-12 eingehalten wurde.
 
