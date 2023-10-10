@@ -8,6 +8,7 @@
     "autoprefixer": "^10.4.15",
     "css-loader": "^6.8.1",
     "css-minimizer-webpack-plugin": "^5.0.1",
+    "eslint": "^8.51.0",
     "husky": "^8.0.0",
     "lint-staged": ">=14.0.1",
     "mini-css-extract-plugin": "^2.7.6",
@@ -37,6 +38,9 @@
   "lint-staged": {
     "*.{scss}": "stylelint",
     "*.{html,json,md,php,scss,yml}": "prettier --write",
-    "public_src/**/*.js": "prettier --write"
+    "public_src/**/*.js": [
+      "eslint",
+      "prettier --write"
+    ]
   }
 }
