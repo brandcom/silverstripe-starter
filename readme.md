@@ -12,8 +12,15 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 -   [Silverstripe Honeypot Protection](https://github.com/brandcom/silverstripe-honeypotprotection) für Spamschutz
 -   [Silverstripe Stats Plugin](https://github.com/brandcom/silverstripe-analytics) für Matomo und Cookiebot
 -   [Silverstripe Webp Plugin](https://github.com/brandcom/silverstripe-webp) für Webp-Bilder
--   [Webpack](https://webpack.js.org/) als Front-End-Build-Tool für SCSS und JavaScript-Imports
--   Automatisches Formatieren von Dateien mit [Prettier](https://prettier.io/) bei GIT Commit.
+-   [Webpack](https://webpack.js.org/) als Front-End-Build-Tool für SCSS und modernes JavaScript
+-   Beim Committen werden automatisch folgende Tools ausgeführt
+    -   [Prettier](https://prettier.io/) formatiert den Code und macht ihn "schöner".
+    -   [PHPStan](https://phpstan.org/) prüft den PHP-Code auf Fehler.
+    -   [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) prüft, ob der PSR-12 eingehalten wurde.
+
+## Konventionen
+
+-   Dein PHP Code muss dem [PSR-12](https://www.php-fig.org/psr/psr-12/) folgen.
 
 ## Installation
 
