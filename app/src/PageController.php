@@ -6,7 +6,10 @@ use SilverStripe\CMS\Controllers\ContentController;
 
 class PageController extends ContentController
 {
-    protected function init(): void
+    /**
+     * @return void
+     */
+    protected function init()
     {
         parent::init();
 
