@@ -23,6 +23,7 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 ## Konventionen
 
 -   Dein PHP-Code muss dem [PSR-12](https://www.php-fig.org/psr/psr-12/) folgen.
+-   Dein SCSS-Code muss dem [SUIT Naming Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md) folgen.
 
 ## Installation
 
@@ -132,6 +133,14 @@ Und verwende TailwindCSS in deinen Templates.
 <h1 class="text-3xl font-bold underline">
     Hello world!
 </h1>
+```
+
+Oder deinen SCSS-Components
+
+```scss
+.TextBaseElement-title {
+    @apply text-3xl font-bold underline;
+}
 ```
 
 ## Deploy
