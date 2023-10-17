@@ -29,3 +29,7 @@ SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
 # Deaktiviert das Fluent-Cookie für DSGVO-Konformität
 TractorCow\Fluent\Middleware\DetectLocaleMiddleware:
   persist_cookie: false
+
+# Anonymisierung gespeicherter IP-Adressen für mehr Datenschutz
+SilverStripe\SessionManager\Models\LoginSession:
+  anonymize_ip: true
