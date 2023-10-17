@@ -4,14 +4,14 @@
     "description": "Simplify the installation of a Silverstripe Dev Environment.",
     "require": {
         "php": "8.2.*",
-        "dnadesign/silverstripe-elemental": "^5.0",
-        "dnadesign/silverstripe-elemental-userforms": "^4.0",
+        "dnadesign/silverstripe-elemental": "^5.1",
+        "dnadesign/silverstripe-elemental-userforms": "^4.1",
         "jbennecker/silverstripe-analytics": "dev-ss5",
         "jbennecker/silverstripe-honeypotprotection": "dev-ss5",
         "jbennecker/silverstripe-webp": "dev-ss5",
         "silverstripe/googlesitemaps": "^3.0",
-        "silverstripe/login-forms": "^5.0.0",
-        "silverstripe/recipe-cms": "^5.0.0",
+        "silverstripe/login-forms": "^5.1.0",
+        "silverstripe/recipe-cms": "^5.1.0",
         "silverstripe/recipe-plugin": "^2.0.0",
         "silverstripe/redirectedurls": "^3.0.0",
         "silverstripe/vendor-plugin": "^2.0.0"
