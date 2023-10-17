@@ -36,7 +36,7 @@
     "printWidth": 120
   },
   "lint-staged": {
-    "*.{scss}": "stylelint",
+    "*.scss": "stylelint",
     "*.{html,json,md,php,scss,yml}": "prettier --write",
     "public_src/**/*.js": [
       "eslint",
