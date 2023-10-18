@@ -20,10 +20,10 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
     -   [PHPStan](https://phpstan.org/) prüft den PHP-Code auf Fehler.
     -   [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) prüft, ob der PSR-12 eingehalten wurde.
 
-## Konventionen
+## Standards und Empfehlungen
 
 -   Dein PHP-Code muss dem [PSR-12](https://www.php-fig.org/psr/psr-12/) folgen.
--   Dein SCSS-Code muss dem [SUIT Naming Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md) folgen.
+-   Dein SCSS-Code sollte den [SUIT Naming Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md) folgen.
 
 ## Installation
 
@@ -36,7 +36,7 @@ git clone git@github.com:brandcom/{{dein-projekt}}
 
 Installiere die Abhängigkeiten.
 
-```
+```sh
 php82 composer.phar install
 yarn install
 ```
@@ -78,7 +78,7 @@ yarn run build
 
 1. TailwindCSS installieren
 
-```
+```sh
 yarn add -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
@@ -87,7 +87,7 @@ npx tailwindcss init
 
 Bearbeite die Datei webpack.config.js und füge in Zeile 26 Tailwind als PostCSS-Option hinzu:
 
-```
+```javascript
 "css-loader",
 {
     loader: "postcss-loader",
@@ -99,21 +99,21 @@ Bearbeite die Datei webpack.config.js und füge in Zeile 26 Tailwind als PostCSS
 
 Füge die Pfade zu deinen Template-Dateien zur `tailwind.config.js` hinzu.
 
-```
+```javascript
 module.exports = {
-  content: ["./app/templates/**/*.ss", "./public_src/**/*.js"],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
-}
+    content: ["./app/templates/**/*.ss", "./public_src/**/*.js"],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+};
 ```
 
 4. Füge die Tailwind-Direktiven zu deinen Styles hinzu
 
 In der Datei `public_src/style.scss`
 
-```
+```scss
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -123,16 +123,14 @@ In der Datei `public_src/style.scss`
 
 Starte Webpack
 
-```
+```sh
 yarn run start
 ```
 
 Und verwende TailwindCSS in deinen Templates.
 
-```
-<h1 class="text-3xl font-bold underline">
-    Hello world!
-</h1>
+```html
+<h1 class="text-3xl font-bold underline">Hello world!</h1>
 ```
 
 Oder deinen SCSS-Components
