@@ -19,6 +19,7 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
     -   [Stylelint](https://stylelint.io/) - prüft den SCSS-Code auf Fehler.
     -   [PHPStan](https://phpstan.org/) prüft den PHP-Code auf Fehler.
     -   [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) prüft, ob der PSR-12 eingehalten wurde.
+    -   Am besten ist es, den Code-Editor so zu konfigurieren, dass die Linting Tools automatisch beim Programmieren ausgeführt werden, damit die Fehler nicht erst beim Commit angezeigt werden.
 
 ## Standards und Empfehlungen
 
