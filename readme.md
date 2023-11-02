@@ -5,8 +5,8 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 ## Was ist enthalten?
 
 -   Silverstripe 5.0
--   Silverstripe Elemental
--   Silverstripe Elemental UserForms
+-   [Silverstripe Elemental](https://github.com/silverstripe/silverstripe-elemental)
+-   [Silverstripe Elemental UserForms](https://github.com/dnadesign/silverstripe-elemental-userforms)
 -   Silverstripe Googlesitemaps
 -   Silverstripe Redirected URLs
 -   [Silverstripe Honeypot Protection](https://github.com/brandcom/silverstripe-honeypotprotection) für Spamschutz
@@ -25,6 +25,7 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 
 -   Dein PHP-Code muss dem [PSR-12](https://www.php-fig.org/psr/psr-12/) folgen.
 -   Dein SCSS-Code sollte den [SUIT Naming Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md) folgen.
+-   Denke an denjenigen, der die Seite befüllen wird. Benenne die Seitentypen, Elemente und Felder sinnvoll und füge eventuell Hilfetexte im CMS hinzu.
 
 ## Installation
 
