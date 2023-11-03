@@ -7,8 +7,8 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 -   Silverstripe 5.0
 -   [Silverstripe Elemental](https://github.com/silverstripe/silverstripe-elemental)
 -   [Silverstripe Elemental UserForms](https://github.com/dnadesign/silverstripe-elemental-userforms)
--   Silverstripe Googlesitemaps
--   Silverstripe Redirected URLs
+-   [Silverstripe Googlesitemaps](https://github.com/wilr/silverstripe-googlesitemaps)
+-   [Silverstripe Redirected URLs](https://github.com/silverstripe/silverstripe-redirectedurls)
 -   [Silverstripe Honeypot Protection](https://github.com/brandcom/silverstripe-honeypotprotection) für Spamschutz
 -   [Silverstripe Stats Plugin](https://github.com/brandcom/silverstripe-analytics) für Matomo und Cookiebot
 -   [Silverstripe Webp Plugin](https://github.com/brandcom/silverstripe-webp) für Webp-Bilder
@@ -142,9 +142,3 @@ Oder deinen SCSS-Components
     @apply text-3xl font-bold underline;
 }
 ```
-
-## Deploy
-
-> Bitte dokumentiere hier kurz, wie Änderungen an der Website live geschaltet werden und was sonst noch wichtig für das
-> Projekt sein könnte. Du kannst dich an der Readme von brandcom.de orientieren.
-> Siehe: https://github.com/brandcom/brandcom.de#deploy
