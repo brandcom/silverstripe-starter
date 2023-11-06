@@ -4360,16 +4360,16 @@
         },
         {
             "name": "silverstripe/vendor-plugin",
-            "version": "2.0.1",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/vendor-plugin.git",
-                "reference": "0acac2f7102cdd1c83ea4a686d7e36e35781c9fa"
+                "reference": "1ce60392d043b1141aaa74e3a3bfc228c1d39e19"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/vendor-plugin/zipball/0acac2f7102cdd1c83ea4a686d7e36e35781c9fa",
-                "reference": "0acac2f7102cdd1c83ea4a686d7e36e35781c9fa",
+                "url": "https://api.github.com/repos/silverstripe/vendor-plugin/zipball/1ce60392d043b1141aaa74e3a3bfc228c1d39e19",
+                "reference": "1ce60392d043b1141aaa74e3a3bfc228c1d39e19",
                 "shasum": ""
             },
             "require": {
@@ -4405,9 +4405,9 @@
             "description": "Allows vendor modules to expose directories to the webroot",
             "support": {
                 "issues": "https://github.com/silverstripe/vendor-plugin/issues",
-                "source": "https://github.com/silverstripe/vendor-plugin/tree/2.0.1"
+                "source": "https://github.com/silverstripe/vendor-plugin/tree/2.0.2"
             },
-            "time": "2023-08-29T05:12:12+00:00"
+            "time": "2023-10-30T21:10:05+00:00"
         },
         {
             "name": "silverstripe/versioned",
@@ -6506,16 +6506,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.39",
+            "version": "1.10.41",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "d9dedb0413f678b4d03cbc2279a48f91592c97c4"
+                "reference": "c6174523c2a69231df55bdc65b61655e72876d76"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d9dedb0413f678b4d03cbc2279a48f91592c97c4",
-                "reference": "d9dedb0413f678b4d03cbc2279a48f91592c97c4",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c6174523c2a69231df55bdc65b61655e72876d76",
+                "reference": "c6174523c2a69231df55bdc65b61655e72876d76",
                 "shasum": ""
             },
             "require": {
@@ -6564,7 +6564,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-10-17T15:46:26+00:00"
+            "time": "2023-11-05T12:57:57+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
