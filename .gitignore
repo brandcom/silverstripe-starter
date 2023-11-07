@@ -1,4 +1,5 @@
 /.env
+/auth.json
 /.graphql-generated/
 /_resources/
 /app/_config/env.yml
