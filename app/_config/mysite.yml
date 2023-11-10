@@ -33,3 +33,10 @@ TractorCow\Fluent\Middleware\DetectLocaleMiddleware:
 # Anonymisierung gespeicherter IP-Adressen für mehr Datenschutz
 SilverStripe\SessionManager\Models\LoginSession:
   anonymize_ip: true
+
+# Lade unsere SiteConfigExtension
+#
+# https://docs.silverstripe.org/en/5/developer_guides/configuration/siteconfig/#extending-siteconfig
+Silverstripe\SiteConfig\SiteConfig:
+  extensions:
+    - SiteConfigExtension
