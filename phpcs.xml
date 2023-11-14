@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ruleset name="App">
+    <!-- Use PSR-12 as a base standard -->
+    <rule ref="PSR12">
+        <!-- Allow classes to not declare a namespace -->
+        <exclude name="PSR1.Classes.ClassDeclaration"/>
+    </rule>
+
+    <file>app</file>
+</ruleset>

@@ -7,5 +7,5 @@ echo "Running PHPStan"
 ./vendor/bin/phpstan analyse app
 
 echo "Running PHP CodeSniffer"
-./vendor/bin/phpcbf app --standard=PSR12 --exclude=PSR1.Classes.ClassDeclaration
-./vendor/bin/phpcs app --standard=PSR12 --exclude=PSR1.Classes.ClassDeclaration
+./vendor/bin/phpcbf
+./vendor/bin/phpcs
