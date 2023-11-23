@@ -4,7 +4,8 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 
 ## Was ist enthalten?
 
--   Silverstripe 5.0
+-   PHP 8.2
+-   Silverstripe 5.1
 -   [Silverstripe Elemental](https://github.com/silverstripe/silverstripe-elemental)
 -   [Silverstripe Elemental UserForms](https://github.com/dnadesign/silverstripe-elemental-userforms)
 -   [Silverstripe Googlesitemaps](https://github.com/wilr/silverstripe-googlesitemaps)
