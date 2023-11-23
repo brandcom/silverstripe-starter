@@ -65,13 +65,15 @@ Kopiere die Datei `app/_config/env.yml.example` zu `app/_config/env.yml`.
 cp app/_config/env.yml.example app/_config/env.yml
 ```
 
-Starte die Entwicklung.
+## Front-end
+
+Startet den Entwicklungs-Modus.
 
 ```sh
 yarn run start
 ```
 
-## Front-end Build
+Führt den Production-Build aus.
 
 ```sh
 yarn run build
