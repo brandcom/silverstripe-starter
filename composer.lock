@@ -3396,16 +3396,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "5.1.4",
+            "version": "5.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "1ae7e9262d6b83a7bfec74c99127c85865aab337"
+                "reference": "6f6b2650ec7a642307e0c7301df71c2f3d721b11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/1ae7e9262d6b83a7bfec74c99127c85865aab337",
-                "reference": "1ae7e9262d6b83a7bfec74c99127c85865aab337",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/6f6b2650ec7a642307e0c7301df71c2f3d721b11",
+                "reference": "6f6b2650ec7a642307e0c7301df71c2f3d721b11",
                 "shasum": ""
             },
             "require": {
@@ -3519,9 +3519,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-framework/issues",
-                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.1.4"
+                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.1.5"
             },
-            "time": "2023-11-18T14:24:15+00:00"
+            "time": "2023-11-25T14:24:26+00:00"
         },
         {
             "name": "silverstripe/googlesitemaps",
@@ -6506,16 +6506,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.43",
+            "version": "1.10.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "2c4129f6ca8c7cfa870098884b8869b410a5a361"
+                "reference": "bf84367c53a23f759513985c54ffe0d0c249825b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/2c4129f6ca8c7cfa870098884b8869b410a5a361",
-                "reference": "2c4129f6ca8c7cfa870098884b8869b410a5a361",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/bf84367c53a23f759513985c54ffe0d0c249825b",
+                "reference": "bf84367c53a23f759513985c54ffe0d0c249825b",
                 "shasum": ""
             },
             "require": {
@@ -6564,7 +6564,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-11-19T19:55:25+00:00"
+            "time": "2023-11-21T16:30:46+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
