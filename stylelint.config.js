@@ -15,4 +15,10 @@ module.exports = {
             implicitComponents: ["public_src/BaseElements/**/*.scss"],
         },
     },
+    overrides: [
+        {
+            files: ["**/*.scss"],
+            customSyntax: "postcss-scss"
+        }
+    ]
 };

@@ -2,7 +2,9 @@
   "name": "silverstripe-starter",
   "license": "UNLICENSED",
   "version": "0.0.2",
-  "dependencies": {},
+  "dependencies": {
+    "postcss-scss": "^4.0.9"
+  },
   "devDependencies": {
     "@prettier/plugin-php": "^0.19.7",
     "autoprefixer": "^10.4.15",
