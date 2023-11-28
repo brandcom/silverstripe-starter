@@ -28,6 +28,10 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 -   Dein SCSS-Code sollte den [SUIT Naming Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md) folgen.
 -   Denke an denjenigen, der die Seite befüllen wird. Benenne die Seitentypen, Elemente und Felder sinnvoll und füge eventuell Hilfetexte im CMS hinzu.
 
+## Hinweis für Visual Studio Code
+
+Bitte installiere die Erweiterung [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), damit Dir mögliche Fehler im SCSS schon während des Codens im Editor angezeigt werden können. Das musst Du nur einmal machen; die Extension steht dann dauerhaft für alle Deine Projekte zur Verfügung.
+
 ## Installation
 
 Nutze den "Use this template" Button um ein neues Repository für ein Projekt anzulegen und klone danach dein neues Projekt.
