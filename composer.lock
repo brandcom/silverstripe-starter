@@ -229,16 +229,16 @@
         },
         {
             "name": "dnadesign/silverstripe-elemental",
-            "version": "5.1.0",
+            "version": "5.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-elemental.git",
-                "reference": "2a0ba7896f5f2b39ed13d43f4b97e178c37ec818"
+                "reference": "057fa494179c4dc6e55d4bb6bf4f76b94ffdb3cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-elemental/zipball/2a0ba7896f5f2b39ed13d43f4b97e178c37ec818",
-                "reference": "2a0ba7896f5f2b39ed13d43f4b97e178c37ec818",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-elemental/zipball/057fa494179c4dc6e55d4bb6bf4f76b94ffdb3cd",
+                "reference": "057fa494179c4dc6e55d4bb6bf4f76b94ffdb3cd",
                 "shasum": ""
             },
             "require": {
@@ -298,9 +298,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-elemental/issues",
-                "source": "https://github.com/silverstripe/silverstripe-elemental/tree/5.1.0"
+                "source": "https://github.com/silverstripe/silverstripe-elemental/tree/5.1.1"
             },
-            "time": "2023-10-15T12:27:54+00:00"
+            "time": "2023-12-06T01:58:21+00:00"
         },
         {
             "name": "dnadesign/silverstripe-elemental-userforms",
@@ -1214,16 +1214,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.22.0",
+            "version": "3.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "d18526ee587f265f091f47bb83f1d9a001ef6f36"
+                "reference": "d4ad81e2b67396e33dc9d7e54ec74ccf73151dcc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d18526ee587f265f091f47bb83f1d9a001ef6f36",
-                "reference": "d18526ee587f265f091f47bb83f1d9a001ef6f36",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/d4ad81e2b67396e33dc9d7e54ec74ccf73151dcc",
+                "reference": "d4ad81e2b67396e33dc9d7e54ec74ccf73151dcc",
                 "shasum": ""
             },
             "require": {
@@ -1288,7 +1288,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.22.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.23.0"
             },
             "funding": [
                 {
@@ -1300,20 +1300,20 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-12-03T18:35:53+00:00"
+            "time": "2023-12-04T10:16:17+00:00"
         },
         {
             "name": "league/flysystem-local",
-            "version": "3.22.0",
+            "version": "3.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem-local.git",
-                "reference": "42dfb4eaafc4accd248180f0dd66f17073b40c4c"
+                "reference": "5cf046ba5f059460e86a997c504dd781a39a109b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/42dfb4eaafc4accd248180f0dd66f17073b40c4c",
-                "reference": "42dfb4eaafc4accd248180f0dd66f17073b40c4c",
+                "url": "https://api.github.com/repos/thephpleague/flysystem-local/zipball/5cf046ba5f059460e86a997c504dd781a39a109b",
+                "reference": "5cf046ba5f059460e86a997c504dd781a39a109b",
                 "shasum": ""
             },
             "require": {
@@ -1348,7 +1348,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem-local/issues",
-                "source": "https://github.com/thephpleague/flysystem-local/tree/3.22.0"
+                "source": "https://github.com/thephpleague/flysystem-local/tree/3.23.0"
             },
             "funding": [
                 {
@@ -1360,7 +1360,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-18T20:52:53+00:00"
+            "time": "2023-12-04T10:14:46+00:00"
         },
         {
             "name": "league/mime-type-detection",
@@ -3176,16 +3176,16 @@
         },
         {
             "name": "silverstripe/cms",
-            "version": "5.1.2",
+            "version": "5.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-cms.git",
-                "reference": "2ccbbc2e9c2b6523fda84b2e7fd3187ba3c554b1"
+                "reference": "8ca2ade623f06e2550d2e4dcde3d22d5edb696b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/2ccbbc2e9c2b6523fda84b2e7fd3187ba3c554b1",
-                "reference": "2ccbbc2e9c2b6523fda84b2e7fd3187ba3c554b1",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-cms/zipball/8ca2ade623f06e2550d2e4dcde3d22d5edb696b9",
+                "reference": "8ca2ade623f06e2550d2e4dcde3d22d5edb696b9",
                 "shasum": ""
             },
             "require": {
@@ -3242,9 +3242,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-cms/issues",
-                "source": "https://github.com/silverstripe/silverstripe-cms/tree/5.1.2"
+                "source": "https://github.com/silverstripe/silverstripe-cms/tree/5.1.3"
             },
-            "time": "2023-11-11T13:24:05+00:00"
+            "time": "2023-12-06T02:00:12+00:00"
         },
         {
             "name": "silverstripe/config",
@@ -6431,16 +6431,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.8.0",
+            "version": "v15.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "329315936f5af9b4c3f798f5d1afef72f3da0312"
+                "reference": "575ac95f13adfb38219a748572355385c101fdf7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/329315936f5af9b4c3f798f5d1afef72f3da0312",
-                "reference": "329315936f5af9b4c3f798f5d1afef72f3da0312",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/575ac95f13adfb38219a748572355385c101fdf7",
+                "reference": "575ac95f13adfb38219a748572355385c101fdf7",
                 "shasum": ""
             },
             "require": {
@@ -6458,7 +6458,7 @@
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "1.10.41",
+                "phpstan/phpstan": "1.10.47",
                 "phpstan/phpstan-phpunit": "1.3.15",
                 "phpstan/phpstan-strict-rules": "1.5.2",
                 "phpunit/phpunit": "^9.5 || ^10",
@@ -6467,7 +6467,7 @@
                 "react/promise": "^2.9",
                 "rector/rector": "^0.18",
                 "symfony/polyfill-php81": "^1.23",
-                "symfony/var-exporter": "^5 || ^6",
+                "symfony/var-exporter": "^5 || ^6 || ^7",
                 "thecodingmachine/safe": "^1.3 || ^2"
             },
             "suggest": {
@@ -6493,7 +6493,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.8.0"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.8.1"
             },
             "funding": [
                 {
@@ -6501,7 +6501,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-11-14T15:30:40+00:00"
+            "time": "2023-12-05T17:23:35+00:00"
         }
     ],
     "packages-dev": [
