@@ -5,6 +5,8 @@ parameters:
     checkMissingTypehints: true
     paths:
         - app
+    universalObjectCratesClasses:
+        - SilverStripe\SiteConfig\SiteConfig
 
 rules:
 	- PHPStan\Rules\Constants\MissingClassConstantTypehintRule
