@@ -2916,16 +2916,16 @@
         },
         {
             "name": "silverstripe/admin",
-            "version": "2.1.5",
+            "version": "2.1.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-admin.git",
-                "reference": "0755502de7eedfc21f2ab02870c85a07d9d8fc03"
+                "reference": "bc92e1f14f7ef7f2093875866ec35fae74825404"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/0755502de7eedfc21f2ab02870c85a07d9d8fc03",
-                "reference": "0755502de7eedfc21f2ab02870c85a07d9d8fc03",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/bc92e1f14f7ef7f2093875866ec35fae74825404",
+                "reference": "bc92e1f14f7ef7f2093875866ec35fae74825404",
                 "shasum": ""
             },
             "require": {
@@ -2979,9 +2979,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-admin/issues",
-                "source": "https://github.com/silverstripe/silverstripe-admin/tree/2.1.5"
+                "source": "https://github.com/silverstripe/silverstripe-admin/tree/2.1.6"
             },
-            "time": "2023-12-19T04:30:02+00:00"
+            "time": "2024-01-11T02:00:08+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -3397,16 +3397,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "5.1.9",
+            "version": "5.1.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "3311794bd3779992c9c42820bb0364e975ed0c8d"
+                "reference": "ff3a6f72df39cca2bf40e46c10a6a9e20b39f78f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/3311794bd3779992c9c42820bb0364e975ed0c8d",
-                "reference": "3311794bd3779992c9c42820bb0364e975ed0c8d",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/ff3a6f72df39cca2bf40e46c10a6a9e20b39f78f",
+                "reference": "ff3a6f72df39cca2bf40e46c10a6a9e20b39f78f",
                 "shasum": ""
             },
             "require": {
@@ -3520,9 +3520,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-framework/issues",
-                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.1.9"
+                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.1.10"
             },
-            "time": "2023-12-14T20:27:31+00:00"
+            "time": "2024-01-11T02:00:24+00:00"
         },
         {
             "name": "silverstripe/googlesitemaps",
@@ -6507,16 +6507,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.54",
+            "version": "1.10.55",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "3e25f279dada0adc14ffd7bad09af2e2fc3523bb"
+                "reference": "9a88f9d18ddf4cf54c922fbeac16c4cb164c5949"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3e25f279dada0adc14ffd7bad09af2e2fc3523bb",
-                "reference": "3e25f279dada0adc14ffd7bad09af2e2fc3523bb",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/9a88f9d18ddf4cf54c922fbeac16c4cb164c5949",
+                "reference": "9a88f9d18ddf4cf54c922fbeac16c4cb164c5949",
                 "shasum": ""
             },
             "require": {
@@ -6565,20 +6565,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-01-05T15:50:47+00:00"
+            "time": "2024-01-08T12:32:40+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
-            "version": "3.8.0",
+            "version": "3.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPCSStandards/PHP_CodeSniffer.git",
-                "reference": "5805f7a4e4958dbb5e944ef1e6edae0a303765e7"
+                "reference": "14f5fff1e64118595db5408e946f3a22c75807f7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/5805f7a4e4958dbb5e944ef1e6edae0a303765e7",
-                "reference": "5805f7a4e4958dbb5e944ef1e6edae0a303765e7",
+                "url": "https://api.github.com/repos/PHPCSStandards/PHP_CodeSniffer/zipball/14f5fff1e64118595db5408e946f3a22c75807f7",
+                "reference": "14f5fff1e64118595db5408e946f3a22c75807f7",
                 "shasum": ""
             },
             "require": {
@@ -6588,11 +6588,11 @@
                 "php": ">=5.4.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.0"
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0 || ^7.0 || ^8.0 || ^9.3.4"
             },
             "bin": [
-                "bin/phpcs",
-                "bin/phpcbf"
+                "bin/phpcbf",
+                "bin/phpcs"
             ],
             "type": "library",
             "extra": {
@@ -6645,7 +6645,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2023-12-08T12:32:31+00:00"
+            "time": "2024-01-11T20:47:48+00:00"
         }
     ],
     "aliases": [],
