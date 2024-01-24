@@ -91,7 +91,7 @@ ErrorDocument 500 /assets/error-500.html
 <IfModule mod_expires.c>
 
 	ExpiresActive on
-	ExpiresDefault                                      "access plus 1 month"
+	ExpiresDefault                                      "access plus 5 minutes"
 
 	ExpiresByType text/css                              "access plus 1 year"
 
