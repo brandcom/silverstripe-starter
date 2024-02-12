@@ -1,4 +1,4 @@
-import "./style.scss";
+import "./app.scss";
 import { TextBaseElement } from "./BaseElements/TextBaseElement";
 
 TextBaseElement();

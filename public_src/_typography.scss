@@ -1,0 +1,5 @@
+@use "cms-typo";
+
+.typography {
+    @include cms-typo.cms-typo;
+}
