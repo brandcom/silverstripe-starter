@@ -4,6 +4,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 let config = {
     entry: {
         app: "./public_src/app.js",
+        admin: "./public_src/admin.js",
     },
     resolve: {
         extensions: [".js"],
