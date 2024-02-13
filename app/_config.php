@@ -14,4 +14,5 @@ Requirements::set_force_js_to_bottom(true);
 $config = TinyMCEConfig::get("cms");
 $contentCSS = $config->getContentCSS();
 $contentCSS[] = "/public/build/admin.min.css";
-$config->setContentCSS($contentCSS)->addButtonsToLine(1, "styles");
+$config->setContentCSS($contentCSS);
+$config->insertButtonsAfter("blocks", "styles");
