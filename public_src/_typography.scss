@@ -4,9 +4,9 @@
  * Die `typography` Klasse ist dazu da, schöne Styles auf Vanilla HTML zu laden,
  * über das wir keine Kontrolle haben. Also z.B. alle HTMLText-Felder aus dem CMS.
  *
- * <article class="BlogElement-content typography">
+ * <div class="TextBaseElement-content typography">
  *     $Content
- * </article>
+ * </div>
  */
 
 @use "cms-typo";
