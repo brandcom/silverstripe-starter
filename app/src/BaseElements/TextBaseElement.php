@@ -18,4 +18,8 @@ class TextBaseElement extends BaseElement
     private static array $db = [
         "Content" => "HTMLText",
     ];
+
+    private static array $field_labels = [
+        "Content" => "Inhalt",
+    ];
 }
