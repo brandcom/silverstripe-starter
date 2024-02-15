@@ -4,6 +4,9 @@
     <div class="ImageTextBaseElement-image">
         <%--
 
+        Bitte beachte die Best Practices für Bilder:
+        https://wissenspool.brandcom.de/books/assets-images-video-icons
+
         $Image.Picture
 
         ODER

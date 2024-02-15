@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 use SilverStripe\Assets\Image;
 
-/**
- * @link https://wissenspool.brandcom.de/books/assets-images-video-icons
- */
 class ImageTextBaseElement extends BaseElement
 {
     /**
