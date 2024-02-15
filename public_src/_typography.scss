@@ -12,5 +12,9 @@
 @use "cms-typo";
 
 .typography {
+    a {
+        text-decoration: underline;
+    }
+
     @include cms-typo.cms-typo;
 }
