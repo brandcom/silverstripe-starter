@@ -22,4 +22,12 @@ class TextBaseElement extends BaseElement
     private static array $field_labels = [
         "Content" => "Inhalt",
     ];
+
+    /**
+     *  Gibt eine Inhaltszusammenfassung zurück für die Zusammenfassung im CMS
+     */
+    public function getSummary(): string
+    {
+        return substr(strip_tags($this->Content ?? ""), 0, 100);
+    }
 }

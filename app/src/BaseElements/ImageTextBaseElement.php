@@ -18,7 +18,7 @@ class ImageTextBaseElement extends BaseElement
 
     private static string $plural_name = "Image Text Elemente";
 
-    private static string $description = "Ein HTML-Editor-Element, zur Darstellung von Text-Inhalten.";
+    private static string $description = "Ein Element zur Darstellung von Textinhalten mit nebenstehendem Bild.";
 
     private static array $db = [
         "Content" => "HTMLText",
@@ -28,8 +28,18 @@ class ImageTextBaseElement extends BaseElement
         "Image" => Image::class,
     ];
 
+    private static array $owns = ["Image"];
+
     private static array $field_labels = [
         "Content" => "Inhalt",
         "Image" => "Bild",
     ];
+
+    /**
+     * Gibt eine Inhaltszusammenfassung zurück für die Zusammenfassung im CMS
+     */
+    public function getSummary(): string
+    {
+        return substr(strip_tags($this->Content ?? ""), 0, 100);
+    }
 }

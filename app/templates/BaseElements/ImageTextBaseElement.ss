@@ -2,13 +2,21 @@
     <div class="ImageTextBaseElement-title">$Title</div>
     <div class="ImageTextBaseElement-content typography">$Content</div>
     <div class="ImageTextBaseElement-image">
-        <!--
+        <%--
 
         $Image.Picture
 
         ODER
 
-        <img class="image" loading="lazy" src="$Image.Webp(1550)" alt="$Image.Title" title="$Image.Title" width="$Image.Width" height="$Image.Height">
+        <img
+            loading="lazy"
+            src="$Image.Webp(775)"
+            srcset="$Image.Webp(775) 1x, $Image.Webp(1550) 2x"
+            width="$Image.Width"
+            height="$Image.Height"
+            alt="$Image.Title"
+            title="$Image.Title"
+        >
 
         ODER
 
@@ -20,9 +28,9 @@
                 type="image/webp"
                 sizes="(max-width: 370px) 500px, (max-width: 750px) 750px, 1500px"
             >
-            <img class="image" loading="lazy" src="$Image.Webp(1500)" alt="$Image.Title" title="$Image.Title" width="$Image.Width" height="$Image.Height">
+            <img loading="lazy" src="$Image.Webp(1500)" alt="$Image.Title" title="$Image.Title" width="$Image.Width" height="$Image.Height">
         </picture>
 
-        //-->
+        --%>
     </div>
 </div>
