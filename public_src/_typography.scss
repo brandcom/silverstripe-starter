@@ -9,12 +9,12 @@
  * </div>
  */
 
-@use "cms-typo";
+@use "cms-text";
 
 .typography {
     a {
         text-decoration: underline;
     }
 
-    @include cms-typo.cms-typo;
+    @include cms-text.cms-text;
 }
