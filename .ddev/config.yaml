@@ -1,0 +1,22 @@
+name: silverstripe-starter
+type: silverstripe
+docroot: public
+php_version: "8.2"
+webserver_type: apache-fpm
+xdebug_enabled: false
+additional_hostnames: []
+additional_fqdns: []
+database:
+    type: mariadb
+    version: "10.4"
+use_dns_when_possible: true
+composer_version: "2"
+web_environment: []
+timezone: Europe/Berlin
+nodejs_version: "18"
+disable_upload_dirs_warning: true
+webimage_extra_packages: []
+disable_settings_management: true
+hooks:
+    post-start:
+        exec: '[ -f .env ] || cp ./.ddev/templates/silverstripe/.env ./.env'

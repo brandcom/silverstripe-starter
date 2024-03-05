@@ -1,26 +1,6 @@
 # Silverstripe Starter
 
-Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-Entwicklungsumgebung vereinfacht. Das Tool basiert auf dem [silverstripe/installer](https://github.com/silverstripe/silverstripe-installer) und enthält wesentliche Plugins sowie ein Front-End-Build-Tool.
-
-## Was ist enthalten?
-
--   PHP 8.2
--   Silverstripe 5.1
--   [Silverstripe Elemental](https://github.com/silverstripe/silverstripe-elemental)
--   [Silverstripe Elemental UserForms](https://github.com/dnadesign/silverstripe-elemental-userforms)
--   [Silverstripe Googlesitemaps](https://github.com/wilr/silverstripe-googlesitemaps)
--   [Silverstripe Redirected URLs](https://github.com/silverstripe/silverstripe-redirectedurls)
--   [Silverstripe Honeypot Protection](https://github.com/brandcom/silverstripe-honeypotprotection) für Spamschutz
--   [Silverstripe Stats Plugin](https://github.com/brandcom/silverstripe-analytics) für Matomo und Cookiebot
--   [Silverstripe Webp Plugin](https://github.com/brandcom/silverstripe-webp) für Webp-Bilder
--   [Webpack](https://webpack.js.org/) als Front-End-Build-Tool für SCSS und modernes JavaScript
--   Beim Committen werden automatisch folgende Tools ausgeführt
-    -   [Prettier](https://prettier.io/) formatiert den Code und macht ihn "schöner".
-    -   [ESLint](https://eslint.org/) - prüft den JS-Code auf Fehler.
-    -   [Stylelint](https://stylelint.io/) - prüft den SCSS-Code auf Fehler.
-    -   [PHPStan](https://phpstan.org/) prüft den PHP-Code auf Fehler.
-    -   [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) prüft, ob der PSR-12 eingehalten wurde.
-    -   Am besten ist es, den Code-Editor so zu konfigurieren, dass die Linting Tools automatisch beim Programmieren ausgeführt werden, damit die Fehler nicht erst beim Commit angezeigt werden.
+Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-Entwicklungsumgebung vereinfacht. Das Tool basiert auf dem [silverstripe/installer](https://github.com/silverstripe/silverstripe-installer) und enthält [wesentliche Plugins](./Documentation/PackageContents.md) sowie ein Front-End-Build-Tool.
 
 ## Standards und Empfehlungen
 
@@ -41,33 +21,10 @@ Nutze den "Use this template" Button um ein neues Repository für ein Projekt an
 git clone git@github.com:brandcom/{{dein-projekt}}
 ```
 
-Installiere die Abhängigkeiten.
+## Setup
 
-```sh
-php82 composer.phar install
-yarn install
-```
-
-Erstelle einen neuen Virtual Host in MAMP und lege eine neue Datenbank an.
-Einige Einstellungen in der .htaccess-Datei gehen davon aus, dass Dein Dev-Server im MAMP auf ".local" endet.
-
-Bearbeite die Datei `webpack.config.js` und trage in Zeile 54 die Host-URL aus MAMP ein (mit Port-Nummer, MAMP-Default: 8890).
-
-```sh
-vim webpack.config.js
-```
-
-Kopiere die Datei .env.example zu .env und trage dort deine MySQL-Zugangsdaten ein.
-
-```sh
-cp .env.example .env
-```
-
-Kopiere die Datei `app/_config/env.yml.example` zu `app/_config/env.yml`.
-
-```sh
-cp app/_config/env.yml.example app/_config/env.yml
-```
+-   [MAMP](./Documentation/Setup/MAMP.md)
+-   [DDEV](./Documentation/Setup/DDEV.md)
 
 ## Front-end
 
