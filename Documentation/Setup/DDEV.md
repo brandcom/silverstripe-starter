@@ -14,9 +14,8 @@ Starte die DDEV-Umgebung mit
 
 Beim ersten Start möchte Docker einen Eintrag in die Hosts-Datei Deines Macs schreiben. Dafür musst Du einmal Dein Mac-Benutzer-Passwort eingeben, wenn der Prompt "Password:" erscheint. Diese Eingabe ist nur beim allerersten Start nötig.
 
-DDEV kopiert Dir eine schlüsselfertige .env-Datei in Dein Projektverzeichnis. Du musst die .env nicht manuell kopieren/anpassen!
+DDEV führt für Dich einen `composer install` durch und kopiert Dir eine schlüsselfertige .env-Datei in Dein Projektverzeichnis.
 
 Installiere nun noch die Abhängigkeiten:
 
-    ddev composer install
     ddev exec yarn install

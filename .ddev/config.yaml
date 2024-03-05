@@ -18,5 +18,6 @@ disable_upload_dirs_warning: true
 webimage_extra_packages: []
 disable_settings_management: true
 hooks:
-    post-start:
-        exec: '[ -f .env ] || cp ./.ddev/templates/silverstripe/.env ./.env'
+  post-start:
+    - exec: '[ -f .env ] || cp ./.ddev/templates/silverstripe/.env ./.env'
+    - exec: '[ -d vendor ] || composer install'
