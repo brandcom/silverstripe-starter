@@ -59,6 +59,7 @@ ErrorDocument 500 /assets/error-500.html
     RewriteCond %{HTTP_HOST} !kasserver\.com$
     RewriteCond %{SERVER_NAME} !\.local$
     RewriteCond %{SERVER_NAME} !localhost$
+    RewriteCond %{SERVER_NAME} !\.ddev\.site$
     RewriteCond %{SERVER_PORT}   !^443$
     RewriteRule  (.*)  https://%{HTTP_HOST}/$1   [L]
 
@@ -66,6 +67,7 @@ ErrorDocument 500 /assets/error-500.html
     RewriteCond %{HTTP_HOST} !kasserver\.com$
 	RewriteCond %{SERVER_NAME} !\.local$
     RewriteCond %{SERVER_NAME} !localhost$
+    RewriteCond %{SERVER_NAME} !\.ddev\.site$
 	RewriteCond %{HTTP_HOST} !^preview\.
     RewriteCond %{HTTP_HOST} !^www\. [NC]
     RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]

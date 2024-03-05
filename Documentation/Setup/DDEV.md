@@ -15,3 +15,15 @@ Starte die DDEV-Umgebung mit
 Beim ersten Start möchte Docker einen Eintrag in die Hosts-Datei Deines Macs schreiben. Dafür musst Du einmal Dein Mac-Benutzer-Passwort eingeben, wenn der Prompt "Password:" erscheint. Diese Eingabe ist nur beim allerersten Start nötig.
 
 DDEV führt für Dich einen `composer install` und `yarn install` durch und kopiert Dir eine schlüsselfertige .env-Datei in Dein Projektverzeichnis.
+
+## Projekt im Browser öffnen
+
+Um Dein Projekt im Browser zu öffnen:
+
+    ddev launch
+
+## Mailversand
+
+Wenn Du aus dem Silverstripe Mails versendest, werden diese in einen Mailhog geleitet, den Du so öffnest:
+
+    ddev launch -m
