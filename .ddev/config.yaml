@@ -21,3 +21,4 @@ hooks:
   post-start:
     - exec: '[ -f .env ] || cp ./.ddev/templates/silverstripe/.env ./.env'
     - exec: '[ -d vendor ] || composer install'
+    - exec: '[ -d node_modules ] || yarn install'
