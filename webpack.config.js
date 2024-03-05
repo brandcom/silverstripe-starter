@@ -50,7 +50,7 @@ let config = {
     devServer: {
         open: true,
         watchFiles: ["./app/templates/**/*.ss"],
-        proxy: {
+        proxy: [{
             context: () => true,
             target: "https://silverstripe-starter.local", // enter your local dev url here
             secure: false,
@@ -58,8 +58,7 @@ let config = {
             onError(err) {
                 console.log("Suppressing WDS proxy upgrade error:", err);
             },
-        },
-        https: true,
+        }],
         port: 3000,
         hot: true,
     },
