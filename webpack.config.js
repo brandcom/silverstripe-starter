@@ -50,19 +50,21 @@ let config = {
     devServer: {
         open: true,
         watchFiles: ["./app/templates/**/*.ss"],
-        proxy: [{
-            context: () => true,
-            target: "https://silverstripe-starter.local", // enter your local dev url here
-            secure: false,
-            changeOrigin: true,
-            onError(err) {
-                console.log("Suppressing WDS proxy upgrade error:", err);
+        proxy: [
+            {
+                context: () => true,
+                target: "https://silverstripe-starter.local", // enter your local dev url here
+                secure: false,
+                changeOrigin: true,
+                onError(err) {
+                    console.log("Suppressing WDS proxy upgrade error:", err);
+                },
             },
-        }],
+        ],
         port: 3000,
         hot: true,
-        host: '0.0.0.0',
-        allowedHosts: 'all',
+        host: "0.0.0.0",
+        server: "https",
     },
 };
 
