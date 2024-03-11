@@ -10,6 +10,16 @@
         font-weight: inherit;
     }
 
+    .cmsText-xs {
+        font-size: 0.75rem; /* 12px */
+        line-height: 1rem; /* 16px */
+    }
+
+    .cmsText-sm {
+        font-size: 0.875rem; /* 14px */
+        line-height: 1.25rem; /* 20px */
+    }
+
     .cmsText-base {
         font-size: 1rem;
         line-height: 1.5rem;
