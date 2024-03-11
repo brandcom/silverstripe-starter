@@ -7,6 +7,7 @@ Der Silverstripe Starter ist ein Tool, das die Einrichtung einer Silverstripe-En
 -   Dein PHP-Code muss dem [PSR-12](https://www.php-fig.org/psr/psr-12/) folgen.
 -   Dein SCSS-Code sollte den [SUIT Naming Conventions](https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md) folgen.
 -   Denke an denjenigen, der die Seite befüllen wird. Benenne die Seitentypen, Elemente und Felder sinnvoll und füge eventuell Hilfetexte im CMS hinzu.
+-   Bitte installiere die Erweiterung [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), damit Dir mögliche Fehler im SCSS schon während des Codens im Editor angezeigt werden können. Das musst Du nur einmal machen; die Extension steht dann dauerhaft für alle Deine Projekte zur Verfügung.
 
 ## Installation
 
@@ -21,10 +22,6 @@ git clone git@github.com:brandcom/{{dein-projekt}}
 
 -   [MAMP](./Documentation/Setup/MAMP.md)
 -   [DDEV](./Documentation/Setup/DDEV.md)
-
-## Hinweis für Visual Studio Code
-
-Bitte installiere die Erweiterung [stylelint](https://marketplace.visualstudio.com/items?itemName=stylelint.vscode-stylelint), damit Dir mögliche Fehler im SCSS schon während des Codens im Editor angezeigt werden können. Das musst Du nur einmal machen; die Extension steht dann dauerhaft für alle Deine Projekte zur Verfügung.
 
 ## Front-end
 
