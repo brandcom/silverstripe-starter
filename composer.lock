@@ -1007,12 +1007,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/brandcom/silverstripe-analytics.git",
-                "reference": "2902a15b7b862874fe100962b924951782af9b5e"
+                "reference": "36c03af65568da6db2bfada8ebd7e627345385e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/brandcom/silverstripe-analytics/zipball/2902a15b7b862874fe100962b924951782af9b5e",
-                "reference": "2902a15b7b862874fe100962b924951782af9b5e",
+                "url": "https://api.github.com/repos/brandcom/silverstripe-analytics/zipball/36c03af65568da6db2bfada8ebd7e627345385e5",
+                "reference": "36c03af65568da6db2bfada8ebd7e627345385e5",
                 "shasum": ""
             },
             "require": {
@@ -1036,7 +1036,7 @@
                 "issues": "https://github.com/brandcom/silverstripe-analytics/issues",
                 "source": "https://github.com/brandcom/silverstripe-analytics/tree/ss5"
             },
-            "time": "2023-11-27T09:20:37+00:00"
+            "time": "2024-03-06T11:07:46+00:00"
         },
         {
             "name": "jbennecker/silverstripe-honeypotprotection",
@@ -1214,16 +1214,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "3.24.0",
+            "version": "3.25.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "b25a361508c407563b34fac6f64a8a17a8819675"
+                "reference": "4c44347133618cccd9b3df1729647a1577b4ad99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/b25a361508c407563b34fac6f64a8a17a8819675",
-                "reference": "b25a361508c407563b34fac6f64a8a17a8819675",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/4c44347133618cccd9b3df1729647a1577b4ad99",
+                "reference": "4c44347133618cccd9b3df1729647a1577b4ad99",
                 "shasum": ""
             },
             "require": {
@@ -1251,7 +1251,7 @@
                 "friendsofphp/php-cs-fixer": "^3.5",
                 "google/cloud-storage": "^1.23",
                 "microsoft/azure-storage-blob": "^1.1",
-                "phpseclib/phpseclib": "^3.0.34",
+                "phpseclib/phpseclib": "^3.0.36",
                 "phpstan/phpstan": "^1.10",
                 "phpunit/phpunit": "^9.5.11|^10.0",
                 "sabre/dav": "^4.6.0"
@@ -1288,7 +1288,7 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/flysystem/issues",
-                "source": "https://github.com/thephpleague/flysystem/tree/3.24.0"
+                "source": "https://github.com/thephpleague/flysystem/tree/3.25.0"
             },
             "funding": [
                 {
@@ -1300,7 +1300,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-02-04T12:10:17+00:00"
+            "time": "2024-03-09T17:06:45+00:00"
         },
         {
             "name": "league/flysystem-local",
@@ -6416,16 +6416,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.10.0",
+            "version": "v15.11.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "e75935f56562f5adf9aed67f8ae21beff8b287d9"
+                "reference": "b4ca60c0d0249674877bd8c7dc253bbc5376f40a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/e75935f56562f5adf9aed67f8ae21beff8b287d9",
-                "reference": "e75935f56562f5adf9aed67f8ae21beff8b287d9",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/b4ca60c0d0249674877bd8c7dc253bbc5376f40a",
+                "reference": "b4ca60c0d0249674877bd8c7dc253bbc5376f40a",
                 "shasum": ""
             },
             "require": {
@@ -6478,7 +6478,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.10.0"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.11.0"
             },
             "funding": [
                 {
@@ -6486,22 +6486,22 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-03-04T11:05:50+00:00"
+            "time": "2024-03-10T14:29:50+00:00"
         }
     ],
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.59",
+            "version": "1.10.60",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "e607609388d3a6d418a50a49f7940e8086798281"
+                "reference": "95dcea7d6c628a3f2f56d091d8a0219485a86bbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/e607609388d3a6d418a50a49f7940e8086798281",
-                "reference": "e607609388d3a6d418a50a49f7940e8086798281",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/95dcea7d6c628a3f2f56d091d8a0219485a86bbe",
+                "reference": "95dcea7d6c628a3f2f56d091d8a0219485a86bbe",
                 "shasum": ""
             },
             "require": {
@@ -6550,7 +6550,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-02-20T13:59:13+00:00"
+            "time": "2024-03-07T13:30:19+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
