@@ -17,6 +17,11 @@ nodejs_version: "18"
 disable_upload_dirs_warning: true
 webimage_extra_packages: []
 disable_settings_management: true
+web_extra_exposed_ports:
+  - name: yarn-webpack
+    container_port: 3000
+    http_port: 2999
+    https_port: 3000
 hooks:
   post-start:
     - exec: '[ -f .env ] || cp ./.ddev/templates/silverstripe/.env ./.env'
