@@ -30,5 +30,5 @@ git clone git@github.com:brandcom/{{dein-projekt}}
 
 ## TailwindCSS
 
--   [MAMP](./Documentation/Frontend/MAMP.md)
--   DDEV ...coming soon...
+-   [MAMP](./Documentation/Tailwind/MAMP.md)
+-   [DDEV](./Documentation/Tailwind/DDEV.md)
