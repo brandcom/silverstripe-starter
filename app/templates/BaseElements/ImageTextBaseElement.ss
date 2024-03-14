@@ -4,17 +4,16 @@
     <div class="ImageTextBaseElement-image">
         <%--
 
-        Bitte beachte die Best Practices für Bilder:
-        https://wissenspool.brandcom.de/books/assets-images-video-icons
+        Plugin jbennecker/silverstripe-webp verwenden
+        Bilder (Headerbilder, normale Bilder etc) immer als ".Webp(SIZE)" ausgeben
+        -> Bildurl ist damit automatisch nicht mehr in Großbuchstaben
 
-        $Image.Picture
-
-        ODER
+        Bildgröße über verschiedene Viewports fix
 
         <img
             loading="lazy"
-            src="$Image.Webp(775)"
-            srcset="$Image.Webp(775) 1x, $Image.Webp(1550) 2x"
+            src="$Image.Webp(300)"
+            srcset="$Image.Webp(300) 1x, $Image.Webp(600) 2x" (2x ist für Retina)
             width="$Image.Width"
             height="$Image.Height"
             alt="$Image.Title"
@@ -23,13 +22,15 @@
 
         ODER
 
+        Bildgröße ändert sich über verschiedene Viewports (Beispiel Headerbild)
+
         <picture>
             <source
-                srcset="$Image.Webp(1500) 1920w,
-                        $Image.Webp(750) 760w,
+                srcset="$Image.Webp(2500) 1920w,
+                        $Image.Webp(1550) 760w,
                         $Image.Webp(500) 370w"
                 type="image/webp"
-                sizes="(max-width: 370px) 500px, (max-width: 750px) 750px, 1500px"
+                sizes="(max-width: 370px) 500px, (max-width: 1250px) 1550px, 2500px"
             >
             <img loading="lazy" src="$Image.Webp(1500)" alt="$Image.Title" title="$Image.Title" width="$Image.Width" height="$Image.Height">
         </picture>
