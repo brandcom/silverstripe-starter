@@ -26,9 +26,9 @@
 
         <picture>
             <source
-                srcset="$Image.Webp(2500) 1920w,
-                        $Image.Webp(1550) 760w,
-                        $Image.Webp(500) 370w"
+                srcset="$Image.Webp(2500) 2500w (w (width) ist die Breite des Bildes),
+                        $Image.Webp(1550) 1550w,
+                        $Image.Webp(500) 500w"
                 type="image/webp"
                 sizes="(max-width: 370px) 500px, (max-width: 1250px) 1550px, 2500px"
             >
