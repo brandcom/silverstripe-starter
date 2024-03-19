@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 use SilverStripe\Assets\Image;
+use SilverStripe\ORM\FieldType\DBField;
 
 class ImageTextBaseElement extends BaseElement
 {
@@ -37,6 +38,6 @@ class ImageTextBaseElement extends BaseElement
      */
     public function getSummary(): string
     {
-        return substr(strip_tags($this->Content ?? ""), 0, 100);
+        return DBField::create_field('HTMLText', $this->Content)->Summary(100);
     }
 }
