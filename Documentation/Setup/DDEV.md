@@ -27,3 +27,7 @@ Um Dein Projekt im Browser zu öffnen:
 Wenn Du aus dem Silverstripe Mails versendest, werden diese in einen Mailhog geleitet, den Du so öffnest:
 
     ddev launch -m
+
+## Weitere Infos
+
+Eine gute Übersicht über verfügbare DDEV-Befehle und Infos, wie das mit der Datenbank genau funktioniert, bekommst Du in den [offiziellen DDEV-Docs](https://ddev.readthedocs.io/en/stable/users/usage/).
