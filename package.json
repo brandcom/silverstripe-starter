@@ -34,7 +34,9 @@
     "start": "webpack serve --mode=development"
   },
   "prettier": {
-    "printWidth": 120
+    "plugins": ["@prettier/plugin-php"],
+    "printWidth": 120,
+    "phpVersion": "8.2"
   },
   "lint-staged": {
     "*.scss": "stylelint",
