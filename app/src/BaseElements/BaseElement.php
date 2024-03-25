@@ -6,6 +6,7 @@ use SilverStripe\ORM\FieldType\DBField;
 use SilverStripe\ORM\FieldType\DBHTMLText;
 
 /**
+ * The following line is needed to avoid false negatives in phpstan
  * @property string $Content
  */
 class BaseElement extends \DNADesign\Elemental\Models\BaseElement
@@ -29,13 +30,13 @@ class BaseElement extends \DNADesign\Elemental\Models\BaseElement
         return str_replace("BaseElement", "", $this->ClassName);
     }
 
-        /**
+    /**
      *  Gibt eine Inhaltszusammenfassung zurück für die Zusammenfassung im CMS
      */
     public function getSummary(): string
     {
         /** @var DBHTMLText $htmlTextField */
-        $htmlTextField = DBField::create_field('HTMLText', $this->Content);
+        $htmlTextField = DBField::create_field("HTMLText", $this->Content);
         return $htmlTextField->Summary(100);
     }
 }
