@@ -29,13 +29,13 @@ class BaseElement extends \DNADesign\Elemental\Models\BaseElement
         return str_replace("BaseElement", "", $this->ClassName);
     }
 
-        /**
+    /**
      *  Gibt eine Inhaltszusammenfassung zurück für die Zusammenfassung im CMS
      */
     public function getSummary(): string
     {
         /** @var DBHTMLText $htmlTextField */
-        $htmlTextField = DBField::create_field('HTMLText', $this->Content);
+        $htmlTextField = DBField::create_field("HTMLText", $this->Content);
         return $htmlTextField->Summary(100);
     }
 }
