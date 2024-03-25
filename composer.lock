@@ -2915,16 +2915,16 @@
         },
         {
             "name": "silverstripe/admin",
-            "version": "2.1.19",
+            "version": "2.1.21",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-admin.git",
-                "reference": "0583c6cf5d3c3d86b2c5e17e74371d155ad17828"
+                "reference": "01e35a101bb42e2881a5f8b384268f7c3ff2f061"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/0583c6cf5d3c3d86b2c5e17e74371d155ad17828",
-                "reference": "0583c6cf5d3c3d86b2c5e17e74371d155ad17828",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-admin/zipball/01e35a101bb42e2881a5f8b384268f7c3ff2f061",
+                "reference": "01e35a101bb42e2881a5f8b384268f7c3ff2f061",
                 "shasum": ""
             },
             "require": {
@@ -2978,9 +2978,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-admin/issues",
-                "source": "https://github.com/silverstripe/silverstripe-admin/tree/2.1.19"
+                "source": "https://github.com/silverstripe/silverstripe-admin/tree/2.1.21"
             },
-            "time": "2024-03-11T22:58:43+00:00"
+            "time": "2024-03-23T11:22:40+00:00"
         },
         {
             "name": "silverstripe/asset-admin",
@@ -3396,16 +3396,16 @@
         },
         {
             "name": "silverstripe/framework",
-            "version": "5.1.20",
+            "version": "5.1.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-framework.git",
-                "reference": "4e3add80d5f0ae5f9d1f29a35feb7a4ff4e6e175"
+                "reference": "8aab888d5011d44c69e1f4ad6f6c28f6fe76bb2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/4e3add80d5f0ae5f9d1f29a35feb7a4ff4e6e175",
-                "reference": "4e3add80d5f0ae5f9d1f29a35feb7a4ff4e6e175",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-framework/zipball/8aab888d5011d44c69e1f4ad6f6c28f6fe76bb2a",
+                "reference": "8aab888d5011d44c69e1f4ad6f6c28f6fe76bb2a",
                 "shasum": ""
             },
             "require": {
@@ -3519,9 +3519,9 @@
             ],
             "support": {
                 "issues": "https://github.com/silverstripe/silverstripe-framework/issues",
-                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.1.20"
+                "source": "https://github.com/silverstripe/silverstripe-framework/tree/5.1.22"
             },
-            "time": "2024-03-14T20:14:22+00:00"
+            "time": "2024-03-20T23:49:10+00:00"
         },
         {
             "name": "silverstripe/googlesitemaps",
@@ -6491,16 +6491,16 @@
     "packages-dev": [
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.63",
+            "version": "1.10.65",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "ad12836d9ca227301f5fb9960979574ed8628339"
+                "reference": "3c657d057a0b7ecae19cb12db446bbc99d8839c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ad12836d9ca227301f5fb9960979574ed8628339",
-                "reference": "ad12836d9ca227301f5fb9960979574ed8628339",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/3c657d057a0b7ecae19cb12db446bbc99d8839c6",
+                "reference": "3c657d057a0b7ecae19cb12db446bbc99d8839c6",
                 "shasum": ""
             },
             "require": {
@@ -6549,7 +6549,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-18T16:53:53+00:00"
+            "time": "2024-03-23T10:30:26+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
