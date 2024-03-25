@@ -1,7 +1,6 @@
 <?php
 
 declare(strict_types=1);
-use SilverStripe\ORM\FieldType\DBField;
 
 class TextBaseElement extends BaseElement
 {
@@ -23,12 +22,4 @@ class TextBaseElement extends BaseElement
     private static array $field_labels = [
         "Content" => "Inhalt",
     ];
-
-    /**
-     *  Gibt eine Inhaltszusammenfassung zurück für die Zusammenfassung im CMS
-     */
-    public function getSummary(): string
-    {
-        return DBField::create_field('HTMLText', $this->Content)->Summary(100);
-    }
 }

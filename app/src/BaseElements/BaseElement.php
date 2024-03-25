@@ -2,6 +2,12 @@
 
 declare(strict_types=1);
 
+use SilverStripe\ORM\FieldType\DBField;
+use SilverStripe\ORM\FieldType\DBHTMLText;
+
+/**
+ * @property string $Content
+ */
 class BaseElement extends \DNADesign\Elemental\Models\BaseElement
 {
     /**
@@ -21,5 +27,15 @@ class BaseElement extends \DNADesign\Elemental\Models\BaseElement
     public function getType(): string
     {
         return str_replace("BaseElement", "", $this->ClassName);
+    }
+
+        /**
+     *  Gibt eine Inhaltszusammenfassung zurück für die Zusammenfassung im CMS
+     */
+    public function getSummary(): string
+    {
+        /** @var DBHTMLText $htmlTextField */
+        $htmlTextField = DBField::create_field('HTMLText', $this->Content);
+        return $htmlTextField->Summary(100);
     }
 }
