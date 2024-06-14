@@ -22,14 +22,18 @@ Um den Webpack-Dev-Server (mit Watch-Funktion) nutzen zu können, musst Du einma
                 target: "https://my-project.ddev.site", // my-project mit dem Namen Deines Projektes ersetzen!
             }
         ],
-        server: "http",
+        server: "https",
         allowedHosts: "all"
     }
 
 `app/_config/env.yml`:
 
     SilverStripe\Control\Director:
-        alternate_base_url: "https://my-project.ddev.site:3000/" // my-project mit dem Namen Deines Projektes ersetzen!
+        alternate_base_url: "https://my-project.ddev.site:3000/" # my-project mit dem Namen Deines Projektes ersetzen, dann diesen Kommentar entfernen!
+
+Damit die neue env.yml von Silverstripe korrekt erkannt wird, musst Du einmal dev/build ausführen:
+
+    ddev sake dev/build
 
 Nun kannst Du den Watcher nutzen.
 
