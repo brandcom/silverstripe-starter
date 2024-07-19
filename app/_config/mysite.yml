@@ -44,4 +44,4 @@ Silverstripe\SiteConfig\SiteConfig:
 # wenn hier keine absender email adresse hinterlegt ist, kann man sein passwort beim cms login nicht erfolgreich zurücksetzen
 # die APP_ADMIN_EMAIL in der .env konfigurieren
 SilverStripe\Control\Email\Email:
-  admin_email: '`APP_ADMIN_EMAIL`' 
+  admin_email: example@example.com 
