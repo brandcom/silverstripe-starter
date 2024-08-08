@@ -79,6 +79,8 @@ ErrorDocument 500 /assets/error-500.html
 
     # Process through SilverStripe if no file with the requested name exists.
     RewriteCond %{REQUEST_FILENAME} !-f
+    # ACHTUNG: auf Ionos muss vor dem index.php ein / !!!
+    # RewriteRule .* /index.php
     RewriteRule .* index.php
 </IfModule>
 
